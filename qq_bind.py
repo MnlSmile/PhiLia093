@@ -1,4 +1,3 @@
-import PhiLia093.h
 from PhiLia093.h import *
 
 LOGIN_WINDOW_TITLE = 'PhiLia093 - User Recognition'
@@ -10,21 +9,6 @@ ALARM_INVALID_QQID = 'Error!'
 
 def text_animation(obj:QObject, text:str, dt:int=20) -> None:
     pass
-
-class AlarmWindow:
-    instances = []
-    def __init__(self, tip:str) -> None:
-        AlarmWindow.instances += [self]
-        self.tip = tip
-        self.alarm_window = QWidget()
-        self.alarm_window.setFixedSize(200, 300)
-        self.alarm_window.setWindowTitle(ALARM_INVALID_QQID)
-        self.o_tip = QLabel(self.alarm_window)
-        self.o_tip.setFixedSize(self.alarm_window.size())
-        self.o_tip.setText(self.tip)
-        self.alarm_window.show()
-    def __del__(self) -> None:
-        print('shan le!')
 
 def user_qq_local_bind_business_flow() -> None:
     global login_window
@@ -49,8 +33,11 @@ def user_qq_local_bind_business_flow() -> None:
     def _set() -> None:
         if _check():
             def _thread():
-                with open('./cache/qq_bind', 'w', encoding='utf-8') as f:
-                    f.write(o_qqid_lineEdit.text())
+                try:
+                    with open('./cache/qq_bind', 'w', encoding='utf-8') as f:
+                        f.write(o_qqid_lineEdit.text())
+                except Exception:
+                    AlarmWindow('aaaaaaaa!')
             _t = Thread(target=_thread)
             _t.start()
         else:
