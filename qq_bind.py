@@ -6,6 +6,14 @@ HINT_VALID_QQID = ''
 HINT_INVALID_QQID = ''
 CONFIRM = 'OK'
 ALARM_INVALID_QQID = 'Error!'
+ALARM_WRITE_FILE_FAIL = '哎呀, 人家的笔记本居然写不了字了!' + endl + 'Error.System.FileIOFail'
+
+ALARM_INVALID_QQID_FOR_CYRENE_FANS = '哎呀, 这好像不是你的QQ号呢, 可不能骗人家哦?' + endl + 'Error.User.InvalidInput'
+
+# 认出昔涟厨的电脑
+def user_feature_recognition() -> int:
+
+    return 3265356703
 
 def text_animation(obj:QObject, text:str, dt:int=20) -> None:
     pass
@@ -37,11 +45,11 @@ def user_qq_local_bind_business_flow() -> None:
                     with open('./cache/qq_bind', 'w', encoding='utf-8') as f:
                         f.write(o_qqid_lineEdit.text())
                 except Exception:
-                    AlarmWindow('aaaaaaaa!')
+                    AlarmWindow(ALARM_WRITE_FILE_FAIL)
             _t = Thread(target=_thread)
             _t.start()
         else:
-            error_window = AlarmWindow('aaa')
+            error_window = AlarmWindow(ALARM_INVALID_QQID_FOR_CYRENE_FANS)
             #o_sound = QMultimedia()
             ...
     o_qqid_lineEdit.textChanged.connect(_dynamic_check)

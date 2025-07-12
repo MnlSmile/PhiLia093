@@ -4,11 +4,20 @@ import qq_bind
 
 class MainWindow(QWidget): ...
 
+class Fonts():
+    @staticmethod
+    def initialize():
+        fontdb = QtGui.QFontDatabase()
+        _hyqh_55s_font_id = fontdb.addApplicationFont('./font/HYQiHei_55S.ttf')
+        _hyqh_75s_font_id = fontdb.addApplicationFont('./font/HYQiHei_75S.ttf')
+
 def main():
     if not os.path.exists('./cache'):
         os.mkdir('cache')
 
     app = QApplication(sys.argv)
+    Fonts.initialize()
+
     window = MainWindow()
     window.setWindowTitle('PhiLia093')
     try:

@@ -13,12 +13,9 @@ class Fonts():
         fontdb = QtGui.QFontDatabase()
         _hyqh_55s_font_id = fontdb.addApplicationFont('./font/HYQiHei_55S.ttf')
         _hyqh_75s_font_id = fontdb.addApplicationFont('./font/HYQiHei_75S.ttf')
-
-    font_harmony = QFont()
-    font_harmony.setFamily("汉仪旗黑 75w")
-
-    font_harmony_title = QFont()
-    font_harmony_title.setFamily("HarmonyOS Sans SC Black")
+    @staticmethod
+    def to_rich_text_bold() -> str:
+        return f""
 
 class CustomQThread(QThread):
     def __init__(self, *args, **kwargs) -> None:
@@ -52,23 +49,47 @@ class ActionQueueGui(QWidget):
         super().__init__(parent)
         self.actionque:list[int] = [986561577, 1590947611, 3265356703, 3484868850]
         self.players:list[int] = [986561577, 1590947611, 3265356703, 3484868850]
-        self.action_avatar_que:list[Avatar] = []
+        self.action_avatar_lst:list[Avatar] = []
         self.cnt_players = 0
         self.player_lock = False
+    def set_players(self, players:list[int]) -> None:
+        ...
+    def set_cnt_players(self, cnt:int) -> None:
+        ...
     def reverse(self) -> None:
         self.actionque.reverse()
         self.refresh_actionque()
     def append_left(self, user:int) -> None:
-        self
+        ava = Avatar(self, user)
+    def last_geometry(self) -> QRect:
+        dx = dy = 64
+        deltax = 10
+        i = self.cnt_players - 1
+        x = 15 + 100 + i * deltax + (i - 1) * dx
+        y = 36
+        ans = QRect(x, y, dx, dy)
+        return ans
     def append(self, user:int) -> None:
-        self
+        ava = Avatar(self, user)
+        ava.switch_to_small()
+        animation = QPropertyAnimation(self.action_avatar_lst[0], b'windowOpacity', self)
+        animation.setStartValue(0)
+        animation.setEndValue(100)
+        animation.setDuration(200)
     def pop_left(self) -> None:
-        self
+        print('triggered')
+        self._anm1 = QPropertyAnimation(self.action_avatar_lst[0], b'windowOpacity', self)
+        self._anm1.setStartValue(1.0)
+        self._anm1.setKeyValueAt(0.5, 0.5)
+        self._anm1.setEndValue(0.0)
+        self._anm1.setDuration(200)
+        self._anm1.start()
+        print('end trigger')
     def refresh_actionque(self) -> None:
-        self.action_avatar_que.clear()
+        self.action_avatar_lst.clear()
         for i, user in enumerate(self.actionque):
             ava = Avatar(self, user)
-            self.action_avatar_que += [ava]
+            self.action_avatar_lst += [ava]
             if i == 0:
                 ava.switch_to_big()
                 ava.setGeometry(*self.calc_avatar_pos(i), 100, 100)
@@ -107,19 +128,23 @@ class RankRow(QWidget):
         
         self.o_score = QLabel(self)
         self.o_score.setGeometry(225, 0, 75, ROWDY)
+
+        self.setStyleSheet("font-family: \"汉仪旗黑 55S\"; font-size: 24px;")
         
         self.setup_test_values()
     def setup_test_values(self):
         self.o_number.setText('1')
         self.o_player.setText('Test')
         self.o_score.setText('100')
+    
 
 class RankGui(QWidget): 
     def __init__(self, parent):
         super().__init__(parent)
         self.rows:list[RankRow] = []
         self.o_title = QLabel(self)
-        self.o_title.setText('名次')
+        self.o_title.setStyleSheet("font-family: \"汉仪旗黑 75S\"; font-size: 36px;")
+        self.o_title.setText('手牌分排名')
         self.o_title.setGeometry(0, 0, 300, 70)
         self.setup_test_values()
     def init_row(self, user:int) -> None:
@@ -200,6 +225,11 @@ app = QApplication(sys.argv)
 gw = GameWindow()
 gw.show()
 
-OutWindow(123333).showFullScreen()
+ow = OutWindow(123333)
+ow.showFullScreen()
+
+tm = QTimer()
+tm.timeout.connect(gw.action_que.pop_left)
+tm.start(5000)
 
 app.exec()
