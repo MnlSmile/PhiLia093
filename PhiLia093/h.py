@@ -39,5 +39,4 @@ class CustomQThread(QThread):
     def run(self) -> None:
         self.target_func()
 
-
 endl = '\n'

@@ -29,7 +29,7 @@ class ActionQueue(deque):
         self.append(p)
         del self.actionlst[0]
         self.actionlst += [p]
-        #return p
+        
     def reverse(self) -> None:
         self.actionlst.reverse()
         self.base_actionque.reverse()
@@ -41,6 +41,7 @@ class ActionQueue(deque):
 # 这样做动画也更好做, 只需要最简单的 QPropertryAnimation 来改位置和大小就行了
 
 # 怎么说这也是个联网的游戏, 如果你不吝啬流量的话, 不考虑考虑直接不在本地维护行动序列? 让服务端算好发行动序列过来
+# 也没那么多同步问题
 
 class BaseCard:
     class const:
