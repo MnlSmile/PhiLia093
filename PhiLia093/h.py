@@ -9,7 +9,15 @@ import sys
 import os
 import functools
 import random
+import win32gui
+import win32con
+import pyautogui
+import MCLikeCommandParser as mccmd
+import psutil
+import time
 
+from win32con import *
+from win32gui import *
 from threading import Thread
 from stdqt import *
 from typing import *
@@ -46,7 +54,7 @@ class AlarmWindow:
             </font>
         </p>
         <p>
-            <font face=\"汉仪旗黑 55S\" size=\"36\">
+            <font face=\"汉仪旗黑 55S\" size=\"24\">
                 {self.err}
             </font>
         </p>

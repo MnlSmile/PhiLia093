@@ -1,3 +1,4 @@
+import uuid
 from collections import deque
 
 class ActionQueue(deque):
@@ -76,6 +77,7 @@ class BaseCard:
     isstackable:bool
     iswild:bool
     featfunc=lambda:None
+    uuid:str
     def __init__(self, _): ...
     def __str__(self): ...
     def __lt__(self, a0:'Num') -> bool: ...
@@ -102,6 +104,7 @@ class Num(BaseCard):
         self.nextcolor = color
         self.value = num
         self.featfunc = lambda:None
+        self.uuid = str(uuid.uuid4())
     def __str__(self):
         _col = '红黄蓝绿'        
         return f"{_col[self.color]} {self.value}"
@@ -137,6 +140,7 @@ class Reverse(BaseCard):
         self.nextcolor = color
         self.value = BaseCard.con.REVERSE
         self.featfunc = lambda:None
+        self.uuid = str(uuid.uuid4())
     def __str__(self):
         _col = '红黄蓝绿'
         return f"{_col[self.color]} 转"
@@ -171,6 +175,7 @@ class Skip(BaseCard):
         self.nextcolor = color
         self.value = BaseCard.con.SKIP
         self.featfunc = lambda:None
+        self.uuid = str(uuid.uuid4())
     def __str__(self):
         _col = '红黄蓝绿'
         return f"{_col[self.color]} 禁"
@@ -205,6 +210,7 @@ class OneMoreRound(BaseCard):
         self.nextcolor = color
         self.value = BaseCard.con.ONEMOREROUND
         self.featfunc = lambda:None
+        self.uuid = str(uuid.uuid4())
     def __str__(self):
         _col = '红黄蓝绿'
         return f"{_col[self.color]} 追加"
@@ -239,6 +245,7 @@ class ClearColor(BaseCard):
         self.nextcolor = color
         self.value = BaseCard.con.CLEARCOLOR
         self.featfunc = lambda:None
+        self.uuid = str(uuid.uuid4())
     def __str__(self):
         _col = '红黄蓝绿'
         return f"{_col[self.color]} 同色全出"
@@ -273,6 +280,7 @@ class Plus2(BaseCard):
         self.nextcolor = color
         self.value = BaseCard.con.P2
         self.featfunc = lambda:None
+        self.uuid = str(uuid.uuid4())
     def __str__(self):
         _col = '红黄蓝绿'
         return f"{_col[self.color]} +2"
@@ -307,6 +315,7 @@ class ColoredPlus4(BaseCard):
         self.nextcolor = color
         self.value = BaseCard.con.P4
         self.featfunc = lambda:None
+        self.uuid = str(uuid.uuid4())
     def __str__(self):
         _col = '红黄蓝绿'
         return f"{_col[self.color]} +4"
@@ -339,6 +348,7 @@ class ReversePlus4(BaseCard):
         self.nextcolor = nextcolor
         self.value = BaseCard.con.RP4
         self.featfunc = lambda:None
+        self.uuid = str(uuid.uuid4())
     def __str__(self):
         return f"反 +4"
     
@@ -370,6 +380,7 @@ class Plus6(BaseCard):
         self.nextcolor = nextcolor
         self.value = BaseCard.con.P6
         self.featfunc = lambda:None
+        self.uuid = str(uuid.uuid4())
     def __str__(self):
         return f"+6"
     
@@ -401,6 +412,7 @@ class Plus10(BaseCard):
         self.nextcolor = nextcolor
         self.value = BaseCard.con.P10
         self.featfunc = lambda:None
+        self.uuid = str(uuid.uuid4())
     def __str__(self):
         return f"+10"
     
@@ -432,6 +444,7 @@ class DrawTill(BaseCard):
         self.nextcolor = nextcolor
         self.value = BaseCard.con.DRAWTILL
         self.featfunc = lambda:None
+        self.uuid = str(uuid.uuid4())
     def __str__(self):
         return f"+++"
     
@@ -459,6 +472,7 @@ class EndStack(BaseCard):
         self.nextcolor = color
         self.value = BaseCard.con.ANY
         self.featfunc = lambda:None
+        self.uuid = str(uuid.uuid4())
     def __str__(self):
         _col = '红黄蓝绿'
         return f"{_col[self.color]} EndStack"
