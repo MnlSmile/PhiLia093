@@ -12,7 +12,7 @@ import random
 import win32gui
 import win32con
 import pyautogui
-import MCLikeCommandParser as mccmd
+#import MCLikeCommandParser as mccmd
 import psutil
 import time
 
@@ -36,7 +36,7 @@ class AlarmWindow:
         self.o_tip.setFixedWidth(self.alarm_window.width())
         self.o_tip.setMinimumHeight(100)
         self.o_tip.setWordWrap(True)
-        self.o_tip.setTextFormat(Qt.TextFormat.RichText)
+        self.o_tip.setTextFormat(Qt.RichText)
         _splited = tip.split(endl)
         self.tip = endl.join(_splited[:-1])
         self.err = _splited[-1]
