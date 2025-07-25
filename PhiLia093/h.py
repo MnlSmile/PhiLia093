@@ -12,7 +12,7 @@ import random
 import win32gui
 import win32con
 import pyautogui
-import MCLikeCommandParser as mccmd
+#import MCLikeCommandParser as mccmd
 import psutil
 import time
 
