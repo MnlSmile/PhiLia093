@@ -9,16 +9,21 @@ def set_cursor_pos(x, y):
 def block_input(block:bool):
     windll.user32.BlockInput(block)
 
+def lmb_click(hwnd:int, x:int, y:int) -> None:
+    PostMessage(hwnd, WM_LBUTTONDOWN, 0, (y << 16) | x)
+    PostMessage(hwnd, WM_LBUTTONUP, 0, (y << 16) | x)
+
 class RemoteCopyClient(QWebSocket):
     def __init__(self) -> None:
         super().__init__()
+        self.current_code:str = ''
         self.window = RemoteCopyWindow(self.current_code)
-        self.current_code:str|None = None
         self.textMessageReceived.connect(self.cuslot_on_text_message_received)
-        self.open(QUrl('ws://47.119.20.14:52520/remote_copy'))
+        self.open(QUrl('ws://47.119.20.145:52520/remote_copy'))
     def cuslot_on_text_message_received(self, msg:str) -> None:
         def _set_code(code:str):
             self.current_code = code
+            self.window.code = code
             self.window.o_code.setText(code)
             self.window.show()
         with mccmd.Parser(msg) as parser:
@@ -35,6 +40,7 @@ class RemoteCopyWindow(QWidget):
 
         self.setGeometry(1920 - 400 - 20, 1080 - 200 - 70, 400, 200)
         self.setWindowFlags(Qt.WindowStaysOnTopHint)
+        self.setWindowTitle('PhiLia093 - Draw & Guess Remote Copy')
 
         self.o_code = QLabel(self)
         self.o_code.setGeometry(0, 75, 400, 50)
@@ -51,11 +57,11 @@ class RemoteCopyWindow(QWidget):
         #self.o_cyrene = QImage()
     def code_inputing_flow(self) -> None:
         def _thread():
-            block_input(True)  # 屏蔽输入
+            block_input(True)
             try:
                 game = FindWindow(None, 'Draw&Guess')
-                print(game)
                 if game:
+                    SetForegroundWindow(game)
                     if re.search(r'^[a-zA-Z]{4}$', self.code):
                         op1 = (476, 320)
                         op2 = (784, 480)
@@ -89,7 +95,7 @@ class RemoteCopyWindow(QWidget):
                         SendMessage(game, WM_KEYDOWN, VK_RETURN, 0)
                         SendMessage(game, WM_KEYUP, VK_RETURN, 0)
             finally:
-                block_input(False)  # 恢复输入
+                block_input(False)
         Thread(target=_thread).start()
 
 if __name__ == '__main__':

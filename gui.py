@@ -1,3 +1,9 @@
+"""
+素材来源
+米哈游/文本 https://www.mihoyo.com/
+小熊猫/图片 https://space.bilibili.com/391634082
+"""
+
 from PhiLia093.h import *
 
 import qq_bind, remote_copy
@@ -29,9 +35,8 @@ def main():
     except Exception:
         pass
     
-    w1 = remote_copy.RemoteCopyWindow('ABCD')
-    w1.show()
-    #window.show()
+    rcc = remote_copy.RemoteCopyClient()
+    window.show()
     
     #qq_bind.user_qq_local_bind_business_flow()
     return app.exec()
