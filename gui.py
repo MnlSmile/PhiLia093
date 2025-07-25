@@ -18,6 +18,7 @@ class Fonts():
         _hyqh_75s_font_id = fontdb.addApplicationFont('./font/HYQiHei_75S.ttf')
 
 game = game_container_widget = container = None
+
 def main():
     global game, game_container_widget, container
     if not os.path.exists('./cache'):

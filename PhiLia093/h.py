@@ -16,6 +16,7 @@ import MCLikeCommandParser as mccmd
 import psutil
 import time
 
+from ctypes import windll
 from win32con import *
 from win32gui import *
 from threading import Thread
@@ -81,5 +82,11 @@ class CustomQThread(QThread):
         self.target_func = func
     def run(self) -> None:
         self.target_func()
+
+def font_hyqh_75(size:int) -> QFont:
+    return QFont('汉仪旗黑 75S', size)
+
+def font_hyqh_55(size:int) -> QFont:
+    return QFont('汉仪旗黑 55S', size)
 
 endl = '\n'

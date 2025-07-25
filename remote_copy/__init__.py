@@ -1,7 +1,11 @@
-import sys
 from PhiLia093.h import *
-from stdqt import *
-from ctypes import windll
+
+global_timers = []
+
+def restore_and_activate_window(hwnd):
+    SW_RESTORE = 9
+    windll.user32.ShowWindow(hwnd, SW_RESTORE)
+    windll.user32.SetForegroundWindow(hwnd)
 
 def set_cursor_pos(x, y):
     windll.user32.SetCursorPos(x, y)
@@ -21,11 +25,20 @@ class RemoteCopyClient(QWebSocket):
         self.textMessageReceived.connect(self.cuslot_on_text_message_received)
         self.open(QUrl('ws://47.119.20.145:52520/remote_copy'))
     def cuslot_on_text_message_received(self, msg:str) -> None:
+        if self.window.is_angry_resize:
+            self.window.o_btn.show()
+            self.window.o_tip.setText('有新邀请来了, 快输呀!\n人家舍不得记你的仇呢')
+            self.window.o_code.move(20, 80)
+            self.window.is_angry_resize = False
+        elif self.window.o_tip.text()[0:2] == '有新邀请来了, 快输呀!\n人家可不是会记仇的孩子哦?'[0:2]:
+            self.window.o_tip.setText('迷？迷迷迷迷迷迷迷!\n人家可以帮你输哦?')
         def _set_code(code:str):
-            self.current_code = code
-            self.window.code = code
-            self.window.o_code.setText(code)
-            self.window.show()
+            game = FindWindow(None, 'Draw&Guess')
+            if game:
+                self.current_code = code
+                self.window.code = code
+                self.window.o_code.setText(code)
+                self.window.show()
         with mccmd.Parser(msg) as parser:
             parser.resolve_overload_and_bind(
                 {
@@ -37,31 +50,66 @@ class RemoteCopyWindow(QWidget):
     def __init__(self, code:str) -> None:
         super().__init__()      
         self.code = code
+        self.is_angry_resize = False
 
         self.setGeometry(1920 - 400 - 20, 1080 - 200 - 70, 400, 200)
         self.setWindowFlags(Qt.WindowStaysOnTopHint)
         self.setWindowTitle('PhiLia093 - Draw & Guess Remote Copy')
 
         self.o_code = QLabel(self)
-        self.o_code.setGeometry(0, 75, 400, 50)
-        self.o_code.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self.o_code.setFont(QFont('汉仪旗黑 75S', 36))
+        self.o_code.setGeometry(20, 80, 400, 50)
+        self.o_code.setAlignment(Qt.AlignmentFlag.AlignLeft)
+        self.o_code.setAlignment(Qt.AlignmentFlag.AlignTop)
+        self.o_code.setFont(QFont('汉仪旗黑 75S', 27))
         self.o_code.setText(code)
 
         self.o_btn = QPushButton(self)
-        self.o_btn.setGeometry((400 - 120) // 2, 75 + 50 + 10, 120, 50)
+        self.o_btn.setGeometry(20, 75 + 50 + 10, 120, 50)
         self.o_btn.setFont(QFont('汉仪旗黑 55S', 18))
-        self.o_btn.setText('帮我输')
+        self.o_btn.setText('拜托了!')
         self.o_btn.clicked.connect(self.code_inputing_flow)
 
-        #self.o_cyrene = QImage()
+        self.o_cyrene = QLabel(self)
+        self.o_cyrene.setStyleSheet(
+            "border-image: url(./cyrene_small_handback.png); background-color: transparent;"
+        )
+        self.o_cyrene.setGeometry(self.width() - 200 *2// 3, self.height() - 283 *2// 3, 200 *2// 3, 283 *2// 3)
+
+        self.o_tip = QLabel(self)
+        self.o_tip.setGeometry(20, 15, 400, 100)
+        self.o_tip.setAlignment(Qt.AlignmentFlag.AlignTop)
+        self.o_tip.setFont(font_hyqh_55(18))
+        self.o_tip.setText('迷？迷迷迷迷迷迷迷!\n人家可以帮你输哦?')
+
+    def resizeEvent(self, a0):
+        global global_timers
+        if (a0.oldSize().width(), a0.oldSize().height()) != (-1, -1) and (a0.size().width(), a0.size().height()) != (400, 200):
+            if not self.is_angry_resize:
+                self.o_tip.setText('不要扯人家! \n人家会痛的哦?')
+                self.o_code.move(self.o_btn.pos())
+                self.o_btn.hide()
+            self.is_angry_resize = True
+            recover_size_timer = QTimer(self)
+            global_timers += [recover_size_timer]
+            def _recover():
+                nonlocal recover_size_timer
+                self.resize(400, 200)
+                recover_size_timer.stop()
+                if recover_size_timer in global_timers:
+                    global_timers.remove(recover_size_timer)
+                del recover_size_timer
+            recover_size_timer.timeout.connect(_recover)
+            recover_size_timer.setSingleShot(True)
+            recover_size_timer.start(1000)
+        return super().resizeEvent(a0)
+        
     def code_inputing_flow(self) -> None:
         def _thread():
             block_input(True)
             try:
                 game = FindWindow(None, 'Draw&Guess')
                 if game:
-                    SetForegroundWindow(game)
+                    restore_and_activate_window(game)
                     if re.search(r'^[a-zA-Z]{4}$', self.code):
                         op1 = (476, 320)
                         op2 = (784, 480)
