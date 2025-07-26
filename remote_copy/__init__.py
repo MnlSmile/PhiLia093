@@ -177,6 +177,7 @@ class AFKMonitor(QFile):
                     print('game not on foreground, reminding')
                     print('nz 鬼回来猜词')
                     self.alarm_window.show()
+                    SetForegroundWindow(game)
         else:
             print('game not found, skipping')
             self.timer.setInterval(2500)

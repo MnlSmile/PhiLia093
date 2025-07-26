@@ -102,12 +102,15 @@ class NormalAlarmWindow(QWidget):
         )
         self.o_cyrene.setGeometry(self.width() - 200 *2// 3, self.height() - 283 *2// 3, 200 *2// 3, 283 *2// 3)
 
+        self.tip = tip
         self.o_tip = QLabel(self)
         self.o_tip.setGeometry(20, 15, 400, 100)
         self.o_tip.setAlignment(Qt.AlignmentFlag.AlignTop)
         self.o_tip.setFont(font_hyqh_55(18))
         self.o_tip.setText(tip)
-
+    def show(self):
+        self.o_tip.setText(self.tip)
+        return super().show()
     def resizeEvent(self, a0):
         global global_timers
         if (a0.oldSize().width(), a0.oldSize().height()) != (-1, -1) and (a0.size().width(), a0.size().height()) != (400, 200):
