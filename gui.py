@@ -20,7 +20,7 @@ class Fonts():
 game = game_container_widget = container = None
 
 def main():
-    global game, game_container_widget, container
+    global game, game_container_widget, container, afkmonitor
     if not os.path.exists('./cache'):
         os.mkdir('cache')
 
@@ -38,7 +38,9 @@ def main():
     
     rcc = remote_copy.RemoteCopyClient()
     window.show()
-    
+
+    afkmonitor = remote_copy.AFKMonitor()
+  
     #qq_bind.user_qq_local_bind_business_flow()
     return app.exec()
 

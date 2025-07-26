@@ -1,0 +1,1717 @@
+Mono path[0] = 'E:/Steam/steamapps/common/Draw & Guess/beta/Draw&Guess_Data/Managed'
+Mono config path = 'E:/Steam/steamapps/common/Draw & Guess/beta/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Loading player data from E:/Steam/steamapps/common/Draw & Guess/beta/Draw&Guess_Data/data.unity3d
+Initialize engine version: 6000.0.51f1 (01c3ff5872c5)
+[Subsystems] Discovering subsystems at path E:/Steam/steamapps/common/Draw & Guess/beta/Draw&Guess_Data/UnitySubsystems
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6500 XT (ID=0x743f)
+    Vendor:   ATI
+    VRAM:     4051 MB
+    Driver:   32.0.21010.10
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.421 seconds
+- Finished resetting the current domain, in  0.003 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+D3D11 device created for Microsoft Media Foundation video decoding.
+Starting to init addressables ...
+<RI> Initializing input.
+Using Windows.Gaming.Input
+<RI> Initialized touch support.
+UnloadTime: 5.645400 ms
+[21:36:27.473][DG][Debug] Key Bindings on init:
+'Brush':	 KeyPos: B / KeyLabel: B
+'IncreaseBrushSize':	 KeyPos: ScrollUp / KeyLabel: 向上滚动
+'EraseAll':	 KeyPos: Delete / KeyLabel: Delete
+'ShapeTool':	 KeyPos: S / KeyLabel: S
+'DropperTool':	 KeyPos: D / KeyLabel: D
+'SetBGColor':	 KeyPos: A / KeyLabel: A
+'FillTool':	 KeyPos: F / KeyLabel: F
+'Chat':	 KeyPos: Enter / KeyLabel: Enter
+'Eraser':	 KeyPos: E / KeyLabel: E
+'DecreaseBrushSize':	 KeyPos: ScrollDown / KeyLabel: 向下滚动
+'UndoStroke':	 KeyPos: Ctrl + Z / KeyLabel: Ctrl + Z
+'RedoStroke':	 KeyPos: Ctrl + Y / KeyLabel: Ctrl + Y
+'PALineTool':	 KeyPos: X / KeyLabel: X
+'ContentModeration':	 KeyPos: M / KeyLabel: M
+'MultiEraser':	 KeyPos: R / KeyLabel: R
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+[21:36:27.664][DG][Debug] Today is 2025-07-23
+[21:36:27.673][DG][Debug] System: 
+OS: Windows 11  (10.0.26100) 64bit, family: Windows
+Input: HasMouse:True, HasPen:False, HasTouch:True
+[21:36:27.854][DG][Debug] Target Framerate: 120
+[21:36:27.854][DG][Debug] Shadows are enabled: False
+[21:36:27.906][DG][Debug] Changing UI language to Chinese (Simplified)(zh-hans)
+[21:36:27.944][DG][Debug] Start genuine check
+[21:36:27.944][DG][Debug] Genuine check not available
+[21:36:27.958][DG][Debug] Skipping check
+RenderGraph is now enabled.
+[21:36:29.519][DG][Debug] AI capability seems to exist
+Unloading 5 Unused Serialized files (Serialized files now loaded: 39)
+[21:36:31.123][DG][Debug] Initialising SteamAPI ...
+[21:36:31.221][DG][Debug] SteamAPI successfully initialised. Initialising connection to steam servers ...
+[21:36:31.233][DG][Debug] Got PlatformData [PlatformData - Name: MnlSmile, Id:76561199142742263, Runtime: WindowsPlayer, Store: Steam]
+[21:36:31.234][DG][Debug] [SteamAuth] Requesting authTicket (1)
+[21:36:31.269][DG][Debug] Adding extra DDOL
+[21:36:31.278][DG][Debug] [SteamNetworkCheck] NetConfAvailable: k_ESteamNetworkingAvailability_Attempting, AnyRelay: k_ESteamNetworkingAvailability_NeverTried, Total: k_ESteamNetworkingAvailability_Attempting => Connected = False
+[21:36:31.278][DG][Debug] [SteamNetworkCheck] NetConfAvailable: k_ESteamNetworkingAvailability_Attempting, AnyRelay: k_ESteamNetworkingAvailability_Waiting, Total: k_ESteamNetworkingAvailability_Attempting => Connected = False
+UnloadTime: 13.245600 ms
+[21:36:31.490][DG][Debug] Checking Version compat with lobby service...
+[21:36:31.537][DG][Debug] Trying to request version from http://8.218.91.138:5555/version
+[21:36:31.610][DG][Debug] Network login still in progress ...
+[21:36:31.610][DG][Debug] Version check still in progress ...
+[21:36:31.616][DG][Debug] Going to mainmenu
+[21:36:31.815][DG][Debug] Got Version '2.93' from lobby service after 0.324 seconds. Client version is: '2.96'
+[21:36:31.822][DG][Debug] Network login still in progress ...
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 20186.
+Total: 14.887100 ms (FindLiveObjects: 1.130400 ms CreateObjectMapping: 0.616700 ms MarkObjects: 12.882700 ms  DeleteObjects: 0.256800 ms)
+
+[21:36:31.844][DG][Debug] [SteamNetworkCheck] NetConfAvailable: k_ESteamNetworkingAvailability_Current, AnyRelay: k_ESteamNetworkingAvailability_Attempting, Total: k_ESteamNetworkingAvailability_Attempting => Connected = False
+[21:36:32.139][DG][Debug] Getting relay host to use ...
+[21:36:32.143][DG][Debug] Configuring preferred Relay [RelayServer Name:appServeHazel3, Region: ASIA, IP:8.217.184.7, PortMin:27000, PortMax:27100, UseRate:1]
+[21:36:32.143][DG][Debug] Starting manual pings to Server, starting with 'appServeHazel3'
+[21:36:32.526][DG][Debug] [SteamAuth] We've received authTicket callback for (1)
+[21:36:33.210][DG][Debug] Network Access State changed from False to True
+[21:36:33.805][DG][Debug] No nick change requests occurred in the last 29 days.
+[21:36:33.806][DG][Debug] Logged into Playfab with PlayfabData [AccountId: BF111FDCA67F94F8, TitleId: E8C38E2FAF40AF83, Name: 'MnlSmile']
+[21:36:34.980][DG][MnlSmile][Debug] We're connected and have at least the min version. Ready to play!
+[21:36:34.981][DG][MnlSmile][Debug] Hooking into Steam Platform ...
+[21:36:35.955][DG][MnlSmile][Debug] [SteamNetworkCheck] NetConfAvailable: k_ESteamNetworkingAvailability_Current, AnyRelay: k_ESteamNetworkingAvailability_Current, Total: k_ESteamNetworkingAvailability_Current => Connected = True
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[21:37:32.311][DG][MnlSmile][Debug] SteamOverlayState is shown: [True] (User initiated: True)
+[21:37:39.897][DG][MnlSmile][Debug] SteamOverlayState is shown: [False] (User initiated: True)
+[21:37:55.012][DG][MnlSmile][Debug] Checking for new lobbies ...
+[21:37:56.710][DG][MnlSmile][Debug] We've fetched 28 lobb(y/ies) from server.
+[21:37:56.712][DG][MnlSmile][Debug] After filtering the ones that are not in our Region 'ASIA', we have 23 lobbies left
+[21:37:56.718][DG][MnlSmile][Debug] After filtering by user preferences, we have 23 lobbies left
+[21:38:02.188][DG][MnlSmile][Debug] Starting to create and join game ...
+[21:38:02.190][DG][MnlSmile][Debug] [Connection] Trying to establish a connection asynchronously ...
+[21:38:02.204][DG][MnlSmile][Debug] [Connection] Trying to establish a connection asynchronously. Target endpoint: 8.217.184.7:27002
+[21:38:02.213][DG][MnlSmile][Debug] [Connection] Preparing connection data for handshake with server: 152 bytes long!
+[21:38:02.217][DG][MnlSmile][Debug] [Connection] [8.217.184.7:27002] Sending new hello msg of length 153
+[21:38:02.266][DG][MnlSmile][Debug] [Connection] We've just received a package!
+[21:38:02.266][DG][MnlSmile][Debug] [Connection] We've just received a package!
+[21:38:02.266][DG][MnlSmile][Debug] [Connection] We've just received a package!
+[21:38:02.267][DG][MnlSmile][Debug] [Connection] We've just received a package!
+[21:38:02.267][DG][MnlSmile][Debug] [Connection] We've just received a package!
+[21:38:02.267][DG][MnlSmile][Debug] [Connection] We've just received a package!
+[21:38:02.268][DG][MnlSmile][Debug] [Connection] We've received an ack for our hello msg!
+[21:38:02.269][DG][MnlSmile][Debug] [Connection] We've just received a package!
+[21:38:02.269][DG][MnlSmile][Debug] [Connection] We've just received a package!
+[21:38:02.270][DG][MnlSmile][Debug] [Connection] We've just received a package!
+[21:38:02.270][DG][MnlSmile][Debug] [Connection] We've just received a package!
+[21:38:02.274][DG][MnlSmile][Debug] [Connection] Connection to port 27002 was successful.
+[21:38:02.278][DG][MnlSmile][Debug] [Connection] Connection to 8.217.184.7 was successful: True. DisconnectTimeout: 9000ms
+[21:38:02.283][DG][MnlSmile][Debug] [Connection] Sending create game message ...
+[21:38:02.334][DG][MnlSmile][Debug] Joined party: 12463 as host: True
+[21:38:02.334][DG][MnlSmile][Debug] Setting up lobby ...
+[21:38:02.334][DG][MnlSmile][Debug] Going to lobby now...
+[21:38:02.334][DG][MnlSmile][Debug] Loading lobby async
+Unloading 2 Unused Serialized files (Serialized files now loaded: 50)
+UnloadTime: 8.895200 ms
+[21:38:02.527][DG][MnlSmile][Debug] Host Promotion '' -> 'E8C38E2FAF40AF83' ==> are we host now? True
+[21:38:02.532][DG][MnlSmile][Debug] Current wordlist is set to '2', name is 'Default - 简体中文'
+[21:38:02.627][DG][MnlSmile][Debug] Clearing temporary data ...
+[21:38:02.649][DG][MnlSmile][Debug] Avatar Unlocks:
+[Mei]		Games Played locally: '7'	Not synced to server
+[Zoey]		Games Played locally: '0'	Not synced to server
+[Wanderer]	Games Played locally: '0'	Not synced to server
+[AL4N]		Games Played locally: '0'	Not synced to server
+Unloading 362 unused Assets to reduce memory usage. Loaded Objects now: 30511.
+Total: 20.658600 ms (FindLiveObjects: 1.827800 ms CreateObjectMapping: 1.117700 ms MarkObjects: 16.734700 ms  DeleteObjects: 0.977900 ms)
+
+[21:38:05.047][DG][MnlSmile][Debug] Clearing temporary data ...
+[21:38:05.053][DG][MnlSmile][Debug] [Connection] Trying to send a disconnect message to server with reason: 'UserCancelled'. Stacktrace:
+		at HazelConnectionHandler.DisconnectManually (DCReason reason) in <6d1a2de6e5474ce9b5b74b1c8365265d>:0
+		at HazelGameConnection.DisconnectManually (DCReason reason) in <6d1a2de6e5474ce9b5b74b1c8365265d>:0
+		at HazelMatch.TryLeaveNetwork (DCReason reason) in <6d1a2de6e5474ce9b5b74b1c8365265d>:0
+		at LeaveGameHelper.LeaveGame (System.Boolean returnToMainMenu) in <6d1a2de6e5474ce9b5b74b1c8365265d>:0
+		at SettingsAndReturnToMenu.TryDisconnectAndGoToMenu () in <6d1a2de6e5474ce9b5b74b1c8365265d>:0
+		at SimpleESCPrompter.HandleAccept () in <6d1a2de6e5474ce9b5b74b1c8365265d>:0
+		at PromptCancelOkayBox.OkClick () in <6d1a2de6e5474ce9b5b74b1c8365265d>:0
+[21:38:05.054][DG][MnlSmile][Warn] [Connection] Handling disconnect message: UserCancelled (DCReason: UserCancelled)
+[21:38:05.060][DG][MnlSmile][Debug] ** LEAVING PARTY for reason: 'UserCancelled' | GoBackToMenu: True **
+[21:38:05.060][DG][MnlSmile][Debug] Clearing temporary data ...
+Unloading 2 Unused Serialized files (Serialized files now loaded: 51)
+UnloadTime: 19.630800 ms
+[21:38:05.138][DG][MnlSmile][Debug] Checking for new gifts ...
+[21:38:05.140][DG][MnlSmile][Debug] Going to mainmenu
+[21:38:05.140][DG][MnlSmile][Debug] We're connected and have at least the min version. Ready to play!
+Unloading 337 unused Assets to reduce memory usage. Loaded Objects now: 21476.
+Total: 17.710300 ms (FindLiveObjects: 1.060200 ms CreateObjectMapping: 1.501600 ms MarkObjects: 14.853200 ms  DeleteObjects: 0.294900 ms)
+
+[21:38:06.115][DG][MnlSmile][Debug] Starting to create and join game ...
+[21:38:06.116][DG][MnlSmile][Debug] [Connection] Trying to establish a connection asynchronously ...
+[21:38:06.128][DG][MnlSmile][Debug] [Connection] Trying to establish a connection asynchronously. Target endpoint: 8.217.184.7:27002
+[21:38:06.128][DG][MnlSmile][Debug] [Connection] [8.217.184.7:27002] Sending new hello msg of length 153
+[21:38:06.167][DG][MnlSmile][Debug] [Connection] We've just received a package!
+[21:38:06.167][DG][MnlSmile][Debug] [Connection] We've received an ack for our hello msg!
+[21:38:06.167][DG][MnlSmile][Debug] [Connection] We've just received a package!
+[21:38:06.167][DG][MnlSmile][Debug] [Connection] We've just received a package!
+[21:38:06.167][DG][MnlSmile][Debug] [Connection] We've just received a package!
+[21:38:06.167][DG][MnlSmile][Debug] [Connection] We've just received a package!
+[21:38:06.168][DG][MnlSmile][Debug] [Connection] We've just received a package!
+[21:38:06.168][DG][MnlSmile][Debug] [Connection] We've just received a package!
+[21:38:06.168][DG][MnlSmile][Debug] [Connection] We've just received a package!
+[21:38:06.168][DG][MnlSmile][Debug] [Connection] We've just received a package!
+[21:38:06.168][DG][MnlSmile][Debug] [Connection] We've just received a package!
+[21:38:06.173][DG][MnlSmile][Debug] [Connection] Connection to port 27002 was successful.
+[21:38:06.173][DG][MnlSmile][Debug] [Connection] Connection to 8.217.184.7 was successful: True. DisconnectTimeout: 9000ms
+[21:38:06.181][DG][MnlSmile][Debug] [Connection] Sending create game message ...
+[21:38:06.223][DG][MnlSmile][Debug] Joined party: 12464 as host: True
+[21:38:06.223][DG][MnlSmile][Debug] Setting up lobby ...
+[21:38:06.223][DG][MnlSmile][Debug] Going to lobby now...
+[21:38:06.223][DG][MnlSmile][Debug] Loading lobby async
+Unloading 1 Unused Serialized files (Serialized files now loaded: 51)
+UnloadTime: 4.437100 ms
+[21:38:06.327][DG][MnlSmile][Debug] Host Promotion '' -> 'E8C38E2FAF40AF83' ==> are we host now? True
+[21:38:06.327][DG][MnlSmile][Debug] Current wordlist is set to '2', name is 'Default - 简体中文'
+[21:38:06.332][DG][MnlSmile][Debug] Clearing temporary data ...
+[21:38:06.342][DG][MnlSmile][Debug] Avatar Unlocks:
+[Mei]		Games Played locally: '7'	Not synced to server
+[Zoey]		Games Played locally: '0'	Not synced to server
+[Wanderer]	Games Played locally: '0'	Not synced to server
+[AL4N]		Games Played locally: '0'	Not synced to server
+Unloading 382 unused Assets to reduce memory usage. Loaded Objects now: 30553.
+Total: 17.282700 ms (FindLiveObjects: 2.354700 ms CreateObjectMapping: 1.602200 ms MarkObjects: 13.040300 ms  DeleteObjects: 0.285000 ms)
+
+[21:38:26.120][DG][MnlSmile][Debug] Spawning new wordlist entry for [ID 'VYAVPCJOTA' / SaveId '2ce991b2-c51f-4be2-bff8-2029feca840d' / Name '什么都有，你画我歪' / WordCount 1137 / Updated '2025-07-23 21:38:26Z']
+[21:38:26.127][DG][MnlSmile][Debug] Spawning new wordlist entry for [ID '2E6B5EH1GG' / SaveId '2E6B5EH1GG' / Name '简体中文【就是多】' / WordCount 2417 / Updated '2025-07-23 21:38:26Z']
+[21:38:26.128][DG][MnlSmile][Debug] Spawning new wordlist entry for [ID '7AY5BRU9RZ' / SaveId '7AY5BRU9RZ' / Name '星穹铁道全角色' / WordCount 80 / Updated '2025-07-23 21:38:26Z']
+[21:38:26.129][DG][MnlSmile][Debug] Spawning new wordlist entry for [ID 'E4LXJIBDZP' / SaveId 'E4LXJIBDZP' / Name '绝区零词库全集（持续更新ing）' / WordCount 206 / Updated '2025-07-23 21:38:26Z']
+[21:38:29.807][DG][MnlSmile][Debug] Current wordlist is set to '2E6B5EH1GG', name is '简体中文【就是多】'
+[21:40:04.409][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: '我爱昔涟', Id: 'E89EABFF8619CBEB', PresenceEventId:1, PlayerNumber: 2, IsMissing: False]
+[21:40:04.409][DG][MnlSmile][Debug] Added player to our user list => 2 / 16
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Curl error 28: Failed to connect to 85.215.71.11 port 40134 after 21044 ms: Could not connect to server
+Curl error 28: Failed to connect to 85.215.71.11 port 40134 after 21030 ms: Could not connect to server
+Curl error 28: Failed to connect to 85.215.71.11 port 40134 after 21053 ms: Could not connect to server
+Curl error 28: Failed to connect to 85.215.71.11 port 40134 after 21042 ms: Could not connect to server
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[21:42:42.674][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: 'Dana不是戴拿', Id: 'F8AAC84E8103F7C0', PresenceEventId:1, PlayerNumber: 3, IsMissing: False]
+[21:42:42.674][DG][MnlSmile][Debug] Added player to our user list => 3 / 16
+[21:42:51.808][DG][MnlSmile][Debug] Player 'F8AAC84E8103F7C0' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[21:42:51.813][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: 'Dana不是戴拿', Id: 'F8AAC84E8103F7C0', PresenceEventId:2, PlayerNumber: 3, IsMissing: True]
+[21:42:56.455][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: 'Dana不是戴拿', Id: 'F8AAC84E8103F7C0', PresenceEventId:3, PlayerNumber: 4, IsMissing: False]
+[21:42:56.455][DG][MnlSmile][Debug] Added player to our user list => 3 / 16
+[21:43:05.659][DG][MnlSmile][Debug] Player 'F8AAC84E8103F7C0' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[21:43:05.662][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: 'Dana不是戴拿', Id: 'F8AAC84E8103F7C0', PresenceEventId:4, PlayerNumber: 4, IsMissing: True]
+[21:43:11.338][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: 'Flamed-ki', Id: 'DAE0B61B06ABE716', PresenceEventId:1, PlayerNumber: 5, IsMissing: False]
+[21:43:11.338][DG][MnlSmile][Debug] Added player to our user list => 3 / 16
+[21:43:56.345][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: '洛夏韦沐', Id: '2C5E29DDFCE208AB', PresenceEventId:1, PlayerNumber: 6, IsMissing: False]
+[21:43:56.346][DG][MnlSmile][Debug] Added player to our user list => 4 / 16
+[21:44:03.296][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: 'Tkk17', Id: 'F16E2C661BFDA7C3', PresenceEventId:1, PlayerNumber: 7, IsMissing: False]
+[21:44:03.296][DG][MnlSmile][Debug] Added player to our user list => 5 / 16
+[21:44:05.941][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: 'Jarvis_z', Id: '1DA19C89BACD551A', PresenceEventId:1, PlayerNumber: 8, IsMissing: False]
+[21:44:05.941][DG][MnlSmile][Debug] Added player to our user list => 6 / 16
+[21:44:09.687][DG][MnlSmile][Debug] Adding 20 lobby drawing sync tasks for player '1DA19C89BACD551A, we now have 0 tasks in the list
+[21:44:09.687][DG][MnlSmile][Debug] Lobby drawing sync tasks added completed for player '1DA19C89BACD551A, we now have 20 tasks in the list in total
+[21:44:14.648][DG][MnlSmile][Debug] Adding 20 lobby drawing sync tasks for player '2C5E29DDFCE208AB, we now have 0 tasks in the list
+[21:44:14.648][DG][MnlSmile][Debug] Lobby drawing sync tasks added completed for player '2C5E29DDFCE208AB, we now have 20 tasks in the list in total
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[21:44:28.675][DG][MnlSmile][Debug] Player '2C5E29DDFCE208AB' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[21:44:28.680][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: '洛夏韦沐', Id: '2C5E29DDFCE208AB', PresenceEventId:2, PlayerNumber: 6, IsMissing: True]
+[21:44:31.221][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: 'maguyusi', Id: '543DB8C52937BF2B', PresenceEventId:1, PlayerNumber: 9, IsMissing: False]
+[21:44:31.221][DG][MnlSmile][Debug] Added player to our user list => 6 / 16
+[21:44:42.325][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: '烧鸡亦我钟意食', Id: 'A3BF5BA460377357', PresenceEventId:1, PlayerNumber: 10, IsMissing: False]
+[21:44:42.325][DG][MnlSmile][Debug] Added player to our user list => 7 / 16
+[21:44:49.852][DG][MnlSmile][Debug] Adding 20 lobby drawing sync tasks for player 'DAE0B61B06ABE716, we now have 0 tasks in the list
+[21:44:49.852][DG][MnlSmile][Debug] Lobby drawing sync tasks added completed for player 'DAE0B61B06ABE716, we now have 20 tasks in the list in total
+[21:44:50.230][DG][MnlSmile][Debug] Adding 20 lobby drawing sync tasks for player 'A3BF5BA460377357, we now have 0 tasks in the list
+[21:44:50.230][DG][MnlSmile][Debug] Lobby drawing sync tasks added completed for player 'A3BF5BA460377357, we now have 20 tasks in the list in total
+[21:44:54.519][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: '原神启动', Id: '4C50FA348BB124E9', PresenceEventId:1, PlayerNumber: 11, IsMissing: False]
+[21:44:54.519][DG][MnlSmile][Debug] Added player to our user list => 8 / 16
+[21:44:58.614][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: '洛夏韦沐', Id: '2C5E29DDFCE208AB', PresenceEventId:3, PlayerNumber: 12, IsMissing: False]
+[21:44:58.614][DG][MnlSmile][Debug] Added player to our user list => 9 / 16
+[21:45:00.538][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: 'YIDAAAA', Id: 'E0AFB4F84D171194', PresenceEventId:1, PlayerNumber: 13, IsMissing: False]
+[21:45:00.538][DG][MnlSmile][Debug] Added player to our user list => 10 / 16
+[21:45:00.625][DG][MnlSmile][Debug] Adding 20 lobby drawing sync tasks for player '2C5E29DDFCE208AB, we now have 0 tasks in the list
+[21:45:00.625][DG][MnlSmile][Debug] Lobby drawing sync tasks added completed for player '2C5E29DDFCE208AB, we now have 20 tasks in the list in total
+[21:45:02.777][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: 'RinRinNanu', Id: '740176A71E4732F1', PresenceEventId:1, PlayerNumber: 14, IsMissing: False]
+[21:45:02.778][DG][MnlSmile][Debug] Added player to our user list => 11 / 16
+[21:45:05.907][DG][MnlSmile][Debug] Game starts in 5 ...
+[21:45:06.912][DG][MnlSmile][Debug] Game starts in 4 ...
+[21:45:07.867][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: 'guts.', Id: '9A5A6D232152E4F1', PresenceEventId:1, PlayerNumber: 15, IsMissing: False]
+[21:45:07.867][DG][MnlSmile][Warn] Player tried to join during game start - removing them!
+[21:45:07.867][DG][MnlSmile][Debug] [Connection] Sending kick message for player '9A5A6D232152E4F1 '(Msg: JoinErrMatchInProgress)
+[21:45:07.919][DG][MnlSmile][Debug] Game starts in 3 ...
+[21:45:08.036][DG][MnlSmile][Debug] Player '9A5A6D232152E4F1' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[21:45:08.036][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: 'guts.', Id: '9A5A6D232152E4F1', PresenceEventId:2, PlayerNumber: 15, IsMissing: True]
+[21:45:08.239][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: 'moriarty32s', Id: 'E3621B47FE5ACA31', PresenceEventId:1, PlayerNumber: 16, IsMissing: False]
+[21:45:08.239][DG][MnlSmile][Warn] Player tried to join during game start - removing them!
+[21:45:08.239][DG][MnlSmile][Debug] [Connection] Sending kick message for player 'E3621B47FE5ACA31 '(Msg: JoinErrMatchInProgress)
+[21:45:08.282][DG][MnlSmile][Debug] Player 'E3621B47FE5ACA31' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[21:45:08.282][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: 'moriarty32s', Id: 'E3621B47FE5ACA31', PresenceEventId:2, PlayerNumber: 16, IsMissing: True]
+[21:45:08.926][DG][MnlSmile][Debug] Game starts in 2 ...
+[21:45:09.930][DG][MnlSmile][Debug] Game starts in 1 ...
+[21:45:10.658][DG][MnlSmile][Debug] Player '740176A71E4732F1' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[21:45:10.663][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: 'RinRinNanu', Id: '740176A71E4732F1', PresenceEventId:2, PlayerNumber: 14, IsMissing: True]
+[21:45:10.935][DG][MnlSmile][Debug] Got Start Match Message from host [HazelPresence Name: 'MnlSmile', Id: 'E8C38E2FAF40AF83', PresenceEventId:0, PlayerNumber: 1, IsMissing: False]! Loading game scene ...
+Unloading 2 Unused Serialized files (Serialized files now loaded: 52)
+UnloadTime: 22.685300 ms
+[21:45:11.108][DG][MnlSmile][Debug] Going to specified scene: ChainMode
+[21:45:11.397][DG][MnlSmile][Debug] Going to tell everyone that we're ready
+[21:45:11.524][DG][MnlSmile][Debug] [Round 0] Transitioning from '' to 'WaitForConnect'
+Unloading 479 unused Assets to reduce memory usage. Loaded Objects now: 40239.
+Total: 44.216600 ms (FindLiveObjects: 2.574300 ms CreateObjectMapping: 1.985000 ms MarkObjects: 39.082800 ms  DeleteObjects: 0.574100 ms)
+
+[21:45:11.660][DG][MnlSmile][Warn] RoundManager: Player [HazelPresence Name: 'Huuuuu', Id: 'C1949CCD75D9E122', PresenceEventId:1, PlayerNumber: 17, IsMissing: False] reconnected
+[21:45:11.665][DG][MnlSmile][Debug] [Round 0] Transitioning from 'WaitForConnect' to 'WaitForConnect'
+[21:45:11.749][DG][MnlSmile][Warn] RoundManager: Player [HazelPresence Name: 'Huuuuu', Id: 'C1949CCD75D9E122', PresenceEventId:2, PlayerNumber: 17, IsMissing: True] disconnected
+[21:45:11.969][DG][MnlSmile][Debug] [Round 0] Transitioning from 'WaitForConnect' to 'WaitForConnect'
+[21:45:13.966][DG][MnlSmile][Debug] [Round 0] Transitioning from 'WaitForConnect' to 'WaitForConnect'
+[21:45:14.074][DG][MnlSmile][Debug] Starting Chain Mode
+[21:45:14.082][DG][MnlSmile][Debug] 
+[21:45:14.100][DG][MnlSmile][Debug] [Round 1] Transitioning from 'WaitForConnect' to 'ChoosingWord'
+[21:45:15.764][DG][MnlSmile][Warn] remote player gone for longer than buffertime: [HazelPresence Name: 'Huuuuu', Id: 'C1949CCD75D9E122', PresenceEventId:2, PlayerNumber: 17, IsMissing: True]
+[21:45:15.764][DG][MnlSmile][Debug] Remote player was not registered in spec ...
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[21:45:28.006][DG][MnlSmile][Debug] 
+[21:45:28.039][DG][MnlSmile][Debug] [Round 1] Transitioning from 'ChoosingWord' to 'Drawing'
+[21:45:28.039][DG][MnlSmile][Debug] Guess module will be hidden here...
+[21:45:28.039][DG][MnlSmile][Debug] Guess module was hidden! No crash!
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[21:48:25.652][DG][MnlSmile][Debug] [Turn 2] Prepare Guessing phase
+[21:48:25.657][DG][MnlSmile][Debug] 
+[21:48:25.664][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Drawing' to 'Guessing'
+[21:48:25.755][DG][MnlSmile][Debug] [DrawingSync][2C5E29DDFCE208AB] Comparing our 10 drawing(s) against the 10 drawing(s) from '洛夏韦沐' ...
+[21:48:25.759][DG][MnlSmile][Debug] [DrawingSync][2C5E29DDFCE208AB] All drawings are the same version as ours!
+[21:48:25.765][DG][MnlSmile][Debug] [DrawingSync][1DA19C89BACD551A] Comparing our 10 drawing(s) against the 10 drawing(s) from 'Jarvis_z' ...
+[21:48:25.765][DG][MnlSmile][Debug] [DrawingSync][1DA19C89BACD551A] All drawings are the same version as ours!
+[21:48:25.767][DG][MnlSmile][Debug] [DrawingSync][543DB8C52937BF2B] Comparing our 10 drawing(s) against the 10 drawing(s) from 'maguyusi' ...
+[21:48:25.767][DG][MnlSmile][Debug] [DrawingSync][543DB8C52937BF2B] All drawings are the same version as ours!
+[21:48:25.769][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] Comparing our 10 drawing(s) against the 10 drawing(s) from 'Flamed-ki' ...
+[21:48:25.769][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] All drawings are the same version as ours!
+[21:48:25.771][DG][MnlSmile][Debug] [DrawingSync][A3BF5BA460377357] Comparing our 10 drawing(s) against the 10 drawing(s) from '烧鸡亦我钟意食' ...
+[21:48:25.771][DG][MnlSmile][Debug] [DrawingSync][A3BF5BA460377357] All drawings are the same version as ours!
+[21:48:25.772][DG][MnlSmile][Debug] [DrawingSync][4C50FA348BB124E9] Comparing our 10 drawing(s) against the 10 drawing(s) from '原神启动' ...
+[21:48:25.772][DG][MnlSmile][Debug] [DrawingSync][4C50FA348BB124E9] All drawings are the same version as ours!
+[21:48:25.777][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] Comparing our 10 drawing(s) against the 10 drawing(s) from '我爱昔涟' ...
+[21:48:25.777][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] All drawings are the same version as ours!
+[21:48:25.937][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] Comparing our 10 drawing(s) against the 10 drawing(s) from 'Tkk17' ...
+[21:48:25.937][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] All drawings are the same version as ours!
+[21:48:26.320][DG][MnlSmile][Debug] [DrawingSync][E0AFB4F84D171194] Comparing our 10 drawing(s) against the 10 drawing(s) from 'YIDAAAA' ...
+[21:48:26.320][DG][MnlSmile][Debug] [DrawingSync][E0AFB4F84D171194] All drawings are the same version as ours!
+[21:48:53.070][DG][MnlSmile][Debug] [Turn 3] Prepare Drawing phase
+[21:48:53.071][DG][MnlSmile][Debug] 
+[21:48:53.075][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Guessing' to 'Drawing'
+[21:48:53.075][DG][MnlSmile][Debug] Guess module will be hidden here...
+[21:48:53.075][DG][MnlSmile][Debug] Guess module was hidden! No crash!
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[21:51:56.770][DG][MnlSmile][Debug] [Turn 4] Prepare Guessing phase
+[21:51:56.770][DG][MnlSmile][Debug] 
+[21:51:56.775][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Drawing' to 'Guessing'
+[21:51:56.857][DG][MnlSmile][Debug] [DrawingSync][543DB8C52937BF2B] Comparing our 20 drawing(s) against the 20 drawing(s) from 'maguyusi' ...
+[21:51:56.857][DG][MnlSmile][Debug] [DrawingSync][543DB8C52937BF2B] All drawings are the same version as ours!
+[21:51:56.859][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] Comparing our 20 drawing(s) against the 20 drawing(s) from 'Flamed-ki' ...
+[21:51:56.859][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716][510385] Re-sending missing drawing with 49 lines and 357 points in version 0
+[21:51:56.868][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] Synced 1 drawing(s) that were a different version from ours!
+[21:51:56.871][DG][MnlSmile][Debug] [DrawingSync][1DA19C89BACD551A] Comparing our 20 drawing(s) against the 20 drawing(s) from 'Jarvis_z' ...
+[21:51:56.871][DG][MnlSmile][Debug] [DrawingSync][1DA19C89BACD551A] All drawings are the same version as ours!
+[21:51:56.875][DG][MnlSmile][Debug] [DrawingSync][4C50FA348BB124E9] Comparing our 20 drawing(s) against the 20 drawing(s) from '原神启动' ...
+[21:51:56.875][DG][MnlSmile][Debug] [DrawingSync][4C50FA348BB124E9] All drawings are the same version as ours!
+[21:51:56.877][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] Comparing our 20 drawing(s) against the 20 drawing(s) from '我爱昔涟' ...
+[21:51:56.877][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] All drawings are the same version as ours!
+[21:51:56.879][DG][MnlSmile][Debug] [DrawingSync][A3BF5BA460377357] Comparing our 20 drawing(s) against the 20 drawing(s) from '烧鸡亦我钟意食' ...
+[21:51:56.879][DG][MnlSmile][Debug] [DrawingSync][A3BF5BA460377357] All drawings are the same version as ours!
+[21:51:56.883][DG][MnlSmile][Debug] [DrawingSync][2C5E29DDFCE208AB] Comparing our 20 drawing(s) against the 20 drawing(s) from '洛夏韦沐' ...
+[21:51:56.883][DG][MnlSmile][Debug] [DrawingSync][2C5E29DDFCE208AB] All drawings are the same version as ours!
+[21:51:56.900][DG][MnlSmile][Debug] [DrawingSync][E0AFB4F84D171194] Comparing our 20 drawing(s) against the 20 drawing(s) from 'YIDAAAA' ...
+[21:51:56.900][DG][MnlSmile][Debug] [DrawingSync][E0AFB4F84D171194] All drawings are the same version as ours!
+[21:51:57.050][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] Comparing our 20 drawing(s) against the 20 drawing(s) from 'Tkk17' ...
+[21:51:57.050][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] All drawings are the same version as ours!
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[21:52:27.647][DG][MnlSmile][Debug] [Turn 5] Prepare Drawing phase
+[21:52:27.648][DG][MnlSmile][Debug] 
+[21:52:27.653][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Guessing' to 'Drawing'
+[21:52:27.653][DG][MnlSmile][Debug] Guess module will be hidden here...
+[21:52:27.653][DG][MnlSmile][Debug] Guess module was hidden! No crash!
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[21:55:31.624][DG][MnlSmile][Debug] [Turn 6] Prepare Guessing phase
+[21:55:31.624][DG][MnlSmile][Debug] 
+[21:55:31.629][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Drawing' to 'Guessing'
+[21:55:31.719][DG][MnlSmile][Debug] [DrawingSync][543DB8C52937BF2B] Comparing our 30 drawing(s) against the 30 drawing(s) from 'maguyusi' ...
+[21:55:31.721][DG][MnlSmile][Debug] [DrawingSync][543DB8C52937BF2B] All drawings are the same version as ours!
+[21:55:31.722][DG][MnlSmile][Debug] [DrawingSync][1DA19C89BACD551A] Comparing our 30 drawing(s) against the 30 drawing(s) from 'Jarvis_z' ...
+[21:55:31.722][DG][MnlSmile][Debug] [DrawingSync][1DA19C89BACD551A] All drawings are the same version as ours!
+[21:55:31.724][DG][MnlSmile][Debug] [DrawingSync][A3BF5BA460377357] Comparing our 30 drawing(s) against the 30 drawing(s) from '烧鸡亦我钟意食' ...
+[21:55:31.724][DG][MnlSmile][Debug] [DrawingSync][A3BF5BA460377357] All drawings are the same version as ours!
+[21:55:31.728][DG][MnlSmile][Debug] [DrawingSync][4C50FA348BB124E9] Comparing our 30 drawing(s) against the 30 drawing(s) from '原神启动' ...
+[21:55:31.728][DG][MnlSmile][Debug] [DrawingSync][4C50FA348BB124E9] All drawings are the same version as ours!
+[21:55:31.729][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] Comparing our 30 drawing(s) against the 30 drawing(s) from '我爱昔涟' ...
+[21:55:31.729][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] All drawings are the same version as ours!
+[21:55:31.747][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] Comparing our 30 drawing(s) against the 30 drawing(s) from 'Flamed-ki' ...
+[21:55:31.747][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716][513330] Re-sending missing drawing with 149 lines and 903 points in version 0
+[21:55:31.771][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716][510447] Re-sending missing drawing with 59 lines and 258 points in version 0
+[21:55:31.779][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] Synced 2 drawing(s) that were a different version from ours!
+[21:55:31.780][DG][MnlSmile][Debug] [DrawingSync][2C5E29DDFCE208AB] Comparing our 30 drawing(s) against the 30 drawing(s) from '洛夏韦沐' ...
+[21:55:31.780][DG][MnlSmile][Debug] [DrawingSync][2C5E29DDFCE208AB] All drawings are the same version as ours!
+[21:55:31.787][DG][MnlSmile][Debug] [DrawingSync][E0AFB4F84D171194] Comparing our 30 drawing(s) against the 30 drawing(s) from 'YIDAAAA' ...
+[21:55:31.787][DG][MnlSmile][Debug] [DrawingSync][E0AFB4F84D171194] All drawings are the same version as ours!
+[21:55:31.895][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] Comparing our 30 drawing(s) against the 30 drawing(s) from 'Tkk17' ...
+[21:55:31.895][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] All drawings are the same version as ours!
+[21:56:02.298][DG][MnlSmile][Debug] [Turn 7] Prepare Drawing phase
+[21:56:02.298][DG][MnlSmile][Debug] 
+[21:56:02.303][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Guessing' to 'Drawing'
+[21:56:02.303][DG][MnlSmile][Debug] Guess module will be hidden here...
+[21:56:02.304][DG][MnlSmile][Debug] Guess module was hidden! No crash!
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[21:58:48.258][DG][MnlSmile][Debug] SteamOverlayState is shown: [True] (User initiated: True)
+[21:58:57.516][DG][MnlSmile][Debug] SteamOverlayState is shown: [False] (User initiated: True)
+[21:58:58.388][DG][MnlSmile][Debug] SteamOverlayState is shown: [True] (User initiated: True)
+[21:59:01.716][DG][MnlSmile][Debug] SteamOverlayState is shown: [False] (User initiated: True)
+[21:59:06.241][DG][MnlSmile][Debug] [Turn 8] Prepare Guessing phase
+[21:59:06.242][DG][MnlSmile][Debug] 
+[21:59:06.246][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Drawing' to 'Guessing'
+[21:59:06.308][DG][MnlSmile][Debug] [DrawingSync][A3BF5BA460377357] Comparing our 40 drawing(s) against the 40 drawing(s) from '烧鸡亦我钟意食' ...
+[21:59:06.308][DG][MnlSmile][Debug] [DrawingSync][A3BF5BA460377357] All drawings are the same version as ours!
+[21:59:06.311][DG][MnlSmile][Debug] [DrawingSync][2C5E29DDFCE208AB] Comparing our 40 drawing(s) against the 40 drawing(s) from '洛夏韦沐' ...
+[21:59:06.312][DG][MnlSmile][Debug] [DrawingSync][2C5E29DDFCE208AB] All drawings are the same version as ours!
+[21:59:06.333][DG][MnlSmile][Debug] [DrawingSync][543DB8C52937BF2B] Comparing our 40 drawing(s) against the 40 drawing(s) from 'maguyusi' ...
+[21:59:06.333][DG][MnlSmile][Debug] [DrawingSync][543DB8C52937BF2B] All drawings are the same version as ours!
+[21:59:06.336][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] Comparing our 40 drawing(s) against the 40 drawing(s) from 'Flamed-ki' ...
+[21:59:06.336][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] All drawings are the same version as ours!
+[21:59:06.338][DG][MnlSmile][Debug] [DrawingSync][1DA19C89BACD551A] Comparing our 40 drawing(s) against the 40 drawing(s) from 'Jarvis_z' ...
+[21:59:06.339][DG][MnlSmile][Debug] [DrawingSync][1DA19C89BACD551A] All drawings are the same version as ours!
+[21:59:06.341][DG][MnlSmile][Debug] [DrawingSync][4C50FA348BB124E9] Comparing our 40 drawing(s) against the 40 drawing(s) from '原神启动' ...
+[21:59:06.341][DG][MnlSmile][Debug] [DrawingSync][4C50FA348BB124E9] All drawings are the same version as ours!
+[21:59:06.345][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] Comparing our 40 drawing(s) against the 40 drawing(s) from '我爱昔涟' ...
+[21:59:06.346][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] All drawings are the same version as ours!
+[21:59:06.370][DG][MnlSmile][Debug] [DrawingSync][E0AFB4F84D171194] Comparing our 40 drawing(s) against the 40 drawing(s) from 'YIDAAAA' ...
+[21:59:06.372][DG][MnlSmile][Debug] [DrawingSync][E0AFB4F84D171194] All drawings are the same version as ours!
+[21:59:06.512][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] Comparing our 40 drawing(s) against the 40 drawing(s) from 'Tkk17' ...
+[21:59:06.513][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] All drawings are the same version as ours!
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[21:59:29.182][DG][MnlSmile][Debug] [Turn 9] Prepare Drawing phase
+[21:59:29.182][DG][MnlSmile][Debug] 
+[21:59:29.186][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Guessing' to 'Drawing'
+[21:59:29.186][DG][MnlSmile][Debug] Guess module will be hidden here...
+[21:59:29.186][DG][MnlSmile][Debug] Guess module was hidden! No crash!
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:02:33.157][DG][MnlSmile][Debug] [Turn 10] Prepare Guessing phase
+[22:02:33.157][DG][MnlSmile][Debug] 
+[22:02:33.163][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Drawing' to 'Guessing'
+[22:02:33.228][DG][MnlSmile][Debug] [DrawingSync][2C5E29DDFCE208AB] Comparing our 50 drawing(s) against the 50 drawing(s) from '洛夏韦沐' ...
+[22:02:33.228][DG][MnlSmile][Debug] [DrawingSync][2C5E29DDFCE208AB] All drawings are the same version as ours!
+[22:02:33.244][DG][MnlSmile][Debug] [DrawingSync][543DB8C52937BF2B] Comparing our 50 drawing(s) against the 50 drawing(s) from 'maguyusi' ...
+[22:02:33.244][DG][MnlSmile][Debug] [DrawingSync][543DB8C52937BF2B] All drawings are the same version as ours!
+[22:02:33.253][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] Comparing our 50 drawing(s) against the 50 drawing(s) from 'Flamed-ki' ...
+[22:02:33.253][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716][510571] Re-sending missing drawing with 128 lines and 622 points in version 0
+[22:02:33.271][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] Synced 1 drawing(s) that were a different version from ours!
+[22:02:33.272][DG][MnlSmile][Debug] [DrawingSync][4C50FA348BB124E9] Comparing our 50 drawing(s) against the 50 drawing(s) from '原神启动' ...
+[22:02:33.272][DG][MnlSmile][Debug] [DrawingSync][4C50FA348BB124E9] All drawings are the same version as ours!
+[22:02:33.277][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] Comparing our 50 drawing(s) against the 50 drawing(s) from '我爱昔涟' ...
+[22:02:33.278][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] All drawings are the same version as ours!
+[22:02:33.302][DG][MnlSmile][Debug] [DrawingSync][E0AFB4F84D171194] Comparing our 50 drawing(s) against the 50 drawing(s) from 'YIDAAAA' ...
+[22:02:33.303][DG][MnlSmile][Debug] [DrawingSync][E0AFB4F84D171194] All drawings are the same version as ours!
+[22:02:33.360][DG][MnlSmile][Debug] [DrawingSync][A3BF5BA460377357] Comparing our 50 drawing(s) against the 50 drawing(s) from '烧鸡亦我钟意食' ...
+[22:02:33.360][DG][MnlSmile][Debug] [DrawingSync][A3BF5BA460377357] All drawings are the same version as ours!
+[22:02:33.478][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] Comparing our 50 drawing(s) against the 50 drawing(s) from 'Tkk17' ...
+[22:02:33.478][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] All drawings are the same version as ours!
+[22:02:33.582][DG][MnlSmile][Debug] [DrawingSync][1DA19C89BACD551A] Comparing our 50 drawing(s) against the 50 drawing(s) from 'Jarvis_z' ...
+[22:02:33.583][DG][MnlSmile][Debug] [DrawingSync][1DA19C89BACD551A] All drawings are the same version as ours!
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:03:05.370][DG][MnlSmile][Debug] [Turn 11] Prepare Drawing phase
+[22:03:05.370][DG][MnlSmile][Debug] 
+[22:03:05.374][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Guessing' to 'Drawing'
+[22:03:05.374][DG][MnlSmile][Debug] Guess module will be hidden here...
+[22:03:05.374][DG][MnlSmile][Debug] Guess module was hidden! No crash!
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:06:09.364][DG][MnlSmile][Debug] [Turn 12] Prepare Guessing phase
+[22:06:09.364][DG][MnlSmile][Debug] 
+[22:06:09.368][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Drawing' to 'Guessing'
+[22:06:09.429][DG][MnlSmile][Debug] [DrawingSync][2C5E29DDFCE208AB] Comparing our 60 drawing(s) against the 60 drawing(s) from '洛夏韦沐' ...
+[22:06:09.429][DG][MnlSmile][Debug] [DrawingSync][2C5E29DDFCE208AB] All drawings are the same version as ours!
+[22:06:09.454][DG][MnlSmile][Debug] [DrawingSync][543DB8C52937BF2B] Comparing our 60 drawing(s) against the 60 drawing(s) from 'maguyusi' ...
+[22:06:09.454][DG][MnlSmile][Debug] [DrawingSync][543DB8C52937BF2B] All drawings are the same version as ours!
+[22:06:09.457][DG][MnlSmile][Debug] [DrawingSync][4C50FA348BB124E9] Comparing our 60 drawing(s) against the 60 drawing(s) from '原神启动' ...
+[22:06:09.457][DG][MnlSmile][Debug] [DrawingSync][4C50FA348BB124E9] All drawings are the same version as ours!
+[22:06:09.463][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] Comparing our 60 drawing(s) against the 60 drawing(s) from 'Flamed-ki' ...
+[22:06:09.464][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716][510633] Re-sending missing drawing with 67 lines and 295 points in version 0
+[22:06:09.475][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] Synced 1 drawing(s) that were a different version from ours!
+[22:06:09.477][DG][MnlSmile][Debug] [DrawingSync][1DA19C89BACD551A] Comparing our 60 drawing(s) against the 60 drawing(s) from 'Jarvis_z' ...
+[22:06:09.477][DG][MnlSmile][Debug] [DrawingSync][1DA19C89BACD551A] All drawings are the same version as ours!
+[22:06:09.480][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] Comparing our 60 drawing(s) against the 60 drawing(s) from '我爱昔涟' ...
+[22:06:09.480][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] All drawings are the same version as ours!
+[22:06:09.498][DG][MnlSmile][Debug] [DrawingSync][E0AFB4F84D171194] Comparing our 60 drawing(s) against the 60 drawing(s) from 'YIDAAAA' ...
+[22:06:09.499][DG][MnlSmile][Debug] [DrawingSync][E0AFB4F84D171194] All drawings are the same version as ours!
+[22:06:09.520][DG][MnlSmile][Debug] [DrawingSync][A3BF5BA460377357] Comparing our 60 drawing(s) against the 60 drawing(s) from '烧鸡亦我钟意食' ...
+[22:06:09.520][DG][MnlSmile][Debug] [DrawingSync][A3BF5BA460377357] All drawings are the same version as ours!
+[22:06:09.653][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] Comparing our 60 drawing(s) against the 60 drawing(s) from 'Tkk17' ...
+[22:06:09.654][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] All drawings are the same version as ours!
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:06:36.504][DG][MnlSmile][Debug] Round 1 Ended!
+[22:06:36.514][DG][MnlSmile][Debug] We have 10 more presentations to show. Continuing with the one from player 0 (E8C38E2FAF40AF83) which will take ~39.9sec
+[ChainSummary] ChainStarterID[Idx]: 'E8C38E2FAF40AF83'[0], StartingWord: '柠檬', WasRandom: False, WasStreamer: False, AddtlGuesses: 6, VoteRequired: True, Votes: 
+[22:06:36.514][DG][MnlSmile][Debug] 
+[22:06:36.529][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Guessing' to 'RoundEnding.PresentAndVote.0'
+[22:06:36.676][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 6
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:07:24.153][DG][MnlSmile][Debug] We just received the word match vote result from players: True
+[22:07:27.152][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.0' to 'RoundEnding.Picking.0'
+[22:07:30.818][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Picking.0' to 'RoundEnding.Curated.0'
+[22:07:33.815][DG][MnlSmile][Debug] Marking previous chain from player 0 as DONE!
+[22:07:33.815][DG][MnlSmile][Debug] We have 9 more presentations to show. Continuing with the one from player 1 (E89EABFF8619CBEB) which will take ~40.2sec
+[ChainSummary] ChainStarterID[Idx]: 'E89EABFF8619CBEB'[1], StartingWord: '大本钟', WasRandom: False, WasStreamer: False, AddtlGuesses: 6, VoteRequired: True, Votes: 
+[22:07:33.815][DG][MnlSmile][Debug] 
+[22:07:33.818][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Curated.0' to 'RoundEnding.PresentAndVote.1'
+[22:07:33.869][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 6
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:08:22.234][DG][MnlSmile][Debug] We just received the word match vote result from players: False
+[22:08:25.233][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.1' to 'RoundEnding.Picking.1'
+[22:08:26.834][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Picking.1' to 'RoundEnding.Curated.1'
+[22:08:29.827][DG][MnlSmile][Debug] Marking previous chain from player 1 as DONE!
+[22:08:29.827][DG][MnlSmile][Debug] We have 8 more presentations to show. Continuing with the one from player 2 (DAE0B61B06ABE716) which will take ~39.85sec
+[ChainSummary] ChainStarterID[Idx]: 'DAE0B61B06ABE716'[2], StartingWord: '抽屉', WasRandom: False, WasStreamer: False, AddtlGuesses: 6, VoteRequired: True, Votes: 
+[22:08:29.827][DG][MnlSmile][Debug] 
+[22:08:29.830][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Curated.1' to 'RoundEnding.PresentAndVote.2'
+[22:08:29.872][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 6
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:09:22.485][DG][MnlSmile][Debug] We just received the word match vote result from players: False
+[22:09:25.477][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.2' to 'RoundEnding.Picking.2'
+[22:09:35.569][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Picking.2' to 'RoundEnding.Curated.2'
+[22:09:38.551][DG][MnlSmile][Debug] Marking previous chain from player 2 as DONE!
+[22:09:38.551][DG][MnlSmile][Debug] We have 7 more presentations to show. Continuing with the one from player 3 (F16E2C661BFDA7C3) which will take ~40.75sec
+[ChainSummary] ChainStarterID[Idx]: 'F16E2C661BFDA7C3'[3], StartingWord: '桌', WasRandom: False, WasStreamer: False, AddtlGuesses: 6, VoteRequired: True, Votes: 
+[22:09:38.551][DG][MnlSmile][Debug] 
+[22:09:38.554][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Curated.2' to 'RoundEnding.PresentAndVote.3'
+[22:09:38.612][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 6
+[22:10:25.836][DG][MnlSmile][Debug] We just received the word match vote result from players: False
+[22:10:28.835][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.3' to 'RoundEnding.Picking.3'
+[22:10:39.109][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Picking.3' to 'RoundEnding.Curated.3'
+[22:10:42.106][DG][MnlSmile][Debug] Marking previous chain from player 3 as DONE!
+[22:10:42.106][DG][MnlSmile][Debug] We have 6 more presentations to show. Continuing with the one from player 4 (1DA19C89BACD551A) which will take ~35.2sec
+[ChainSummary] ChainStarterID[Idx]: '1DA19C89BACD551A'[4], StartingWord: '充电器', WasRandom: False, WasStreamer: False, AddtlGuesses: 6, VoteRequired: False, Votes: 
+[22:10:42.106][DG][MnlSmile][Debug] 
+[22:10:42.109][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Curated.3' to 'RoundEnding.PresentAndVote.4'
+[22:10:42.150][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 6
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:11:31.925][DG][MnlSmile][Debug] We just received the word match vote result from players: True
+[22:11:34.913][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.4' to 'RoundEnding.Picking.4'
+[22:11:39.704][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Picking.4' to 'RoundEnding.Curated.4'
+[22:11:42.688][DG][MnlSmile][Debug] Marking previous chain from player 4 as DONE!
+[22:11:42.688][DG][MnlSmile][Debug] We have 5 more presentations to show. Continuing with the one from player 5 (543DB8C52937BF2B) which will take ~46.85sec
+[ChainSummary] ChainStarterID[Idx]: '543DB8C52937BF2B'[5], StartingWord: '老鼠', WasRandom: False, WasStreamer: False, AddtlGuesses: 6, VoteRequired: True, Votes: 
+[22:11:42.688][DG][MnlSmile][Debug] 
+[22:11:42.690][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Curated.4' to 'RoundEnding.PresentAndVote.5'
+[22:11:42.758][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 6
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:12:39.918][DG][MnlSmile][Debug] We just received the word match vote result from players: False
+[22:12:42.911][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.5' to 'RoundEnding.Picking.5'
+[22:12:53.002][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Picking.5' to 'RoundEnding.Curated.5'
+[22:12:55.991][DG][MnlSmile][Debug] Marking previous chain from player 5 as DONE!
+[22:12:55.991][DG][MnlSmile][Debug] We have 4 more presentations to show. Continuing with the one from player 6 (A3BF5BA460377357) which will take ~51.65001sec
+[ChainSummary] ChainStarterID[Idx]: 'A3BF5BA460377357'[6], StartingWord: '世界杯', WasRandom: False, WasStreamer: False, AddtlGuesses: 6, VoteRequired: True, Votes: 
+[22:12:55.991][DG][MnlSmile][Debug] 
+[22:12:55.995][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Curated.5' to 'RoundEnding.PresentAndVote.6'
+[22:12:56.066][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 6
+[22:13:50.990][DG][MnlSmile][Debug] We just received the word match vote result from players: True
+[22:13:53.992][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.6' to 'RoundEnding.Picking.6'
+[22:13:58.787][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Picking.6' to 'RoundEnding.Curated.6'
+[22:14:01.772][DG][MnlSmile][Debug] Marking previous chain from player 6 as DONE!
+[22:14:01.772][DG][MnlSmile][Debug] We have 3 more presentations to show. Continuing with the one from player 7 (4C50FA348BB124E9) which will take ~54.80001sec
+[ChainSummary] ChainStarterID[Idx]: '4C50FA348BB124E9'[7], StartingWord: '店铺', WasRandom: False, WasStreamer: False, AddtlGuesses: 6, VoteRequired: True, Votes: 
+[22:14:01.772][DG][MnlSmile][Debug] 
+[22:14:01.776][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Curated.6' to 'RoundEnding.PresentAndVote.7'
+[22:14:01.835][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 6
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:14:51.535][DG][MnlSmile][Debug] We just received the word match vote result from players: True
+[22:14:54.535][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.7' to 'RoundEnding.Picking.7'
+[22:14:56.999][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Picking.7' to 'RoundEnding.Curated.7'
+[22:14:59.992][DG][MnlSmile][Debug] Marking previous chain from player 7 as DONE!
+[22:14:59.993][DG][MnlSmile][Debug] We have 2 more presentations to show. Continuing with the one from player 8 (2C5E29DDFCE208AB) which will take ~38.10001sec
+[ChainSummary] ChainStarterID[Idx]: '2C5E29DDFCE208AB'[8], StartingWord: '糖果', WasRandom: False, WasStreamer: False, AddtlGuesses: 6, VoteRequired: True, Votes: 
+[22:14:59.993][DG][MnlSmile][Debug] 
+[22:14:59.994][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Curated.7' to 'RoundEnding.PresentAndVote.8'
+[22:15:00.049][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 6
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:15:53.018][DG][MnlSmile][Debug] We just received the word match vote result from players: False
+[22:15:56.013][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.8' to 'RoundEnding.Picking.8'
+[22:15:57.394][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Picking.8' to 'RoundEnding.Curated.8'
+[22:16:00.390][DG][MnlSmile][Debug] Marking previous chain from player 8 as DONE!
+[22:16:00.390][DG][MnlSmile][Debug] We have 1 more presentations to show. Continuing with the one from player 9 (E0AFB4F84D171194) which will take ~43.05sec
+[ChainSummary] ChainStarterID[Idx]: 'E0AFB4F84D171194'[9], StartingWord: '蝴蝶', WasRandom: False, WasStreamer: False, AddtlGuesses: 6, VoteRequired: True, Votes: 
+[22:16:00.390][DG][MnlSmile][Debug] 
+[22:16:00.391][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Curated.8' to 'RoundEnding.PresentAndVote.9'
+[22:16:00.455][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 6
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:16:48.626][DG][MnlSmile][Debug] We just received the word match vote result from players: False
+[22:16:51.616][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.9' to 'RoundEnding.Picking.9'
+[22:16:56.431][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Picking.9' to 'RoundEnding.Curated.9'
+[22:16:59.433][DG][MnlSmile][Debug] Marking previous chain from player 9 as DONE!
+[22:16:59.433][DG][MnlSmile][Debug] We don't have any chains left to present. Trying to start next major round!
+[22:16:59.490][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Curated.9' to 'MatchEnding'
+[22:17:02.022][DG][MnlSmile][Warn] Can't invoke handler for message type 112: It's null!
+[22:17:02.022][DG][MnlSmile][Warn] Can't invoke handler for message type 105: It's null!
+[22:17:03.157][DG][MnlSmile][Warn] RoundManager: Player [HazelPresence Name: '原神启动', Id: '4C50FA348BB124E9', PresenceEventId:2, PlayerNumber: 11, IsMissing: True] disconnected
+[22:17:03.642][DG][MnlSmile][Warn] Can't invoke handler for message type 112: It's null!
+[22:17:03.642][DG][MnlSmile][Warn] Can't invoke handler for message type 105: It's null!
+[22:17:04.241][DG][MnlSmile][Debug] Clearing temporary data ...
+Unloading 1 Unused Serialized files (Serialized files now loaded: 52)
+UnloadTime: 44.629300 ms
+[22:17:04.520][DG][MnlSmile][Debug] Host Promotion '' -> 'E8C38E2FAF40AF83' ==> are we host now? True
+[22:17:04.521][DG][MnlSmile][Debug] Going to lobby
+[22:17:04.550][DG][MnlSmile][Debug] Clearing temporary data ...
+[22:17:04.552][DG][MnlSmile][Debug] Avatar Unlocks:
+[Mei]		Games Played locally: '8'	Not synced to server
+[Zoey]		Games Played locally: '0'	Not synced to server
+[Wanderer]	Games Played locally: '0'	Not synced to server
+[AL4N]		Games Played locally: '0'	Not synced to server
+Unloading 714 unused Assets to reduce memory usage. Loaded Objects now: 39518.
+Total: 101.621200 ms (FindLiveObjects: 16.237000 ms CreateObjectMapping: 3.580900 ms MarkObjects: 80.569800 ms  DeleteObjects: 1.232900 ms)
+
+[22:17:07.002][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: '冷静的山', Id: '92D3410C68874539', PresenceEventId:1, PlayerNumber: 18, IsMissing: False]
+[22:17:07.002][DG][MnlSmile][Debug] Added player to our user list => 10 / 16
+[22:17:07.419][DG][MnlSmile][Debug] Player 'A3BF5BA460377357' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[22:17:07.423][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: '烧鸡亦我钟意食', Id: 'A3BF5BA460377357', PresenceEventId:2, PlayerNumber: 10, IsMissing: True]
+[22:17:09.815][DG][MnlSmile][Debug] Player '2C5E29DDFCE208AB' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[22:17:09.821][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: '洛夏韦沐', Id: '2C5E29DDFCE208AB', PresenceEventId:4, PlayerNumber: 12, IsMissing: True]
+[22:17:10.472][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: '雨中的游戏者', Id: 'CEEC2A6F5918C1EF', PresenceEventId:1, PlayerNumber: 19, IsMissing: False]
+[22:17:10.472][DG][MnlSmile][Debug] Added player to our user list => 9 / 16
+[22:17:10.699][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: '杉杉水水流遍全身', Id: '1FDBBCF8CEB8698A', PresenceEventId:1, PlayerNumber: 20, IsMissing: False]
+[22:17:10.699][DG][MnlSmile][Debug] Added player to our user list => 10 / 16
+[22:17:11.078][DG][MnlSmile][Debug] Player '543DB8C52937BF2B' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[22:17:11.084][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: 'maguyusi', Id: '543DB8C52937BF2B', PresenceEventId:2, PlayerNumber: 9, IsMissing: True]
+[22:17:14.736][DG][MnlSmile][Debug] Player 'DAE0B61B06ABE716' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[22:17:14.743][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: 'Flamed-ki', Id: 'DAE0B61B06ABE716', PresenceEventId:2, PlayerNumber: 5, IsMissing: True]
+[22:17:16.222][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: '寿司又输了', Id: '223A19FE8CBE91A8', PresenceEventId:1, PlayerNumber: 21, IsMissing: False]
+[22:17:16.222][DG][MnlSmile][Debug] Added player to our user list => 9 / 16
+[22:17:20.990][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: 'TIETI', Id: '521DEC8145B148E6', PresenceEventId:1, PlayerNumber: 22, IsMissing: False]
+[22:17:20.990][DG][MnlSmile][Debug] Added player to our user list => 10 / 16
+[22:17:24.370][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: '炸鸡大王ovo', Id: '69692BFC963DD53C', PresenceEventId:1, PlayerNumber: 23, IsMissing: False]
+[22:17:24.370][DG][MnlSmile][Debug] Added player to our user list => 11 / 16
+[22:17:31.516][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: 'White Samoye', Id: '3998FCE37B95632C', PresenceEventId:1, PlayerNumber: 24, IsMissing: False]
+[22:17:31.516][DG][MnlSmile][Debug] Added player to our user list => 12 / 16
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:17:40.672][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: '安戈上校', Id: 'D1A64D66C35BBBEC', PresenceEventId:1, PlayerNumber: 25, IsMissing: False]
+[22:17:40.672][DG][MnlSmile][Debug] Added player to our user list => 13 / 16
+[22:17:40.843][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: '忧郁的尺', Id: 'D32A69EC52FE7BC8', PresenceEventId:1, PlayerNumber: 26, IsMissing: False]
+[22:17:40.843][DG][MnlSmile][Debug] Added player to our user list => 14 / 16
+[22:17:42.014][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: '小鹏友yo', Id: 'A047B82A1813B372', PresenceEventId:1, PlayerNumber: 27, IsMissing: False]
+[22:17:42.014][DG][MnlSmile][Debug] Added player to our user list => 15 / 16
+[22:17:47.730][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: 'Flamed-ki', Id: 'DAE0B61B06ABE716', PresenceEventId:3, PlayerNumber: 28, IsMissing: False]
+[22:17:47.730][DG][MnlSmile][Debug] Added player to our user list => 16 / 16
+[22:17:49.594][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: '小猫小猫翻跟斗', Id: '25B246F54716BC6', PresenceEventId:1, PlayerNumber: 29, IsMissing: False]
+[22:17:49.594][DG][MnlSmile][Warn] Player tried to join but lobby is already full - removing them!
+[22:17:49.594][DG][MnlSmile][Debug] [Connection] Sending kick message for player '25B246F54716BC6 '(Msg: LobbyFull)
+[22:17:49.632][DG][MnlSmile][Debug] Player '25B246F54716BC6' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[22:17:49.633][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: '小猫小猫翻跟斗', Id: '25B246F54716BC6', PresenceEventId:2, PlayerNumber: 29, IsMissing: True]
+[22:17:50.043][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: '盗号狗死全家11', Id: '6242BC4BA3E1B626', PresenceEventId:1, PlayerNumber: 30, IsMissing: False]
+[22:17:50.043][DG][MnlSmile][Warn] Player tried to join but lobby is already full - removing them!
+[22:17:50.043][DG][MnlSmile][Debug] [Connection] Sending kick message for player '6242BC4BA3E1B626 '(Msg: LobbyFull)
+[22:17:50.081][DG][MnlSmile][Debug] Player '6242BC4BA3E1B626' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[22:17:50.081][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: '盗号狗死全家11', Id: '6242BC4BA3E1B626', PresenceEventId:2, PlayerNumber: 30, IsMissing: True]
+[22:17:50.299][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: '梦鸡的泪巴12', Id: 'A51BD71094366BA5', PresenceEventId:1, PlayerNumber: 31, IsMissing: False]
+[22:17:50.299][DG][MnlSmile][Warn] Player tried to join but lobby is already full - removing them!
+[22:17:50.299][DG][MnlSmile][Debug] [Connection] Sending kick message for player 'A51BD71094366BA5 '(Msg: LobbyFull)
+[22:17:50.338][DG][MnlSmile][Debug] Player 'A51BD71094366BA5' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[22:17:50.338][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: '梦鸡的泪巴12', Id: 'A51BD71094366BA5', PresenceEventId:2, PlayerNumber: 31, IsMissing: True]
+[22:17:51.037][DG][MnlSmile][Debug] Player '1DA19C89BACD551A' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[22:17:51.045][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: 'Jarvis_z', Id: '1DA19C89BACD551A', PresenceEventId:2, PlayerNumber: 8, IsMissing: True]
+[22:17:51.527][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: '历历学绘画', Id: 'C03C0C7A35054E1A', PresenceEventId:1, PlayerNumber: 32, IsMissing: False]
+[22:17:51.527][DG][MnlSmile][Debug] Added player to our user list => 16 / 16
+[22:17:53.954][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: '花鼓鸟雨兮', Id: 'B64CC5EF13575D15', PresenceEventId:1, PlayerNumber: 33, IsMissing: False]
+[22:17:53.954][DG][MnlSmile][Warn] Player tried to join but lobby is already full - removing them!
+[22:17:53.954][DG][MnlSmile][Debug] [Connection] Sending kick message for player 'B64CC5EF13575D15 '(Msg: LobbyFull)
+[22:17:53.998][DG][MnlSmile][Debug] Player 'B64CC5EF13575D15' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[22:17:53.998][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: '花鼓鸟雨兮', Id: 'B64CC5EF13575D15', PresenceEventId:2, PlayerNumber: 33, IsMissing: True]
+[22:17:55.165][DG][MnlSmile][Debug] Player 'C03C0C7A35054E1A' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[22:17:55.174][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: '历历学绘画', Id: 'C03C0C7A35054E1A', PresenceEventId:2, PlayerNumber: 32, IsMissing: True]
+[22:17:55.896][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: '梦鸡的泪巴12', Id: 'A51BD71094366BA5', PresenceEventId:3, PlayerNumber: 34, IsMissing: False]
+[22:17:55.896][DG][MnlSmile][Debug] Added player to our user list => 16 / 16
+[22:18:04.940][DG][MnlSmile][Debug] Player 'A51BD71094366BA5' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[22:18:04.950][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: '梦鸡的泪巴12', Id: 'A51BD71094366BA5', PresenceEventId:4, PlayerNumber: 34, IsMissing: True]
+[22:18:11.947][DG][MnlSmile][Debug] Adding 12 lobby drawing sync tasks for player 'DAE0B61B06ABE716, we now have 0 tasks in the list
+[22:18:11.947][DG][MnlSmile][Debug] Lobby drawing sync tasks added completed for player 'DAE0B61B06ABE716, we now have 12 tasks in the list in total
+[22:18:23.370][DG][MnlSmile][Debug] Adding 20 lobby drawing sync tasks for player '69692BFC963DD53C, we now have 0 tasks in the list
+[22:18:23.370][DG][MnlSmile][Debug] Lobby drawing sync tasks added completed for player '69692BFC963DD53C, we now have 20 tasks in the list in total
+[22:18:33.129][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: '小猫小猫翻跟斗', Id: '25B246F54716BC6', PresenceEventId:3, PlayerNumber: 35, IsMissing: False]
+[22:18:33.129][DG][MnlSmile][Debug] Added player to our user list => 16 / 16
+[22:18:35.215][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: 'LAPOJUVANIA', Id: '47B1C7D9062BDB7E', PresenceEventId:1, PlayerNumber: 36, IsMissing: False]
+[22:18:35.215][DG][MnlSmile][Warn] Player tried to join but lobby is already full - removing them!
+[22:18:35.215][DG][MnlSmile][Debug] [Connection] Sending kick message for player '47B1C7D9062BDB7E '(Msg: LobbyFull)
+[22:18:35.257][DG][MnlSmile][Debug] Player '47B1C7D9062BDB7E' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[22:18:35.257][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: 'LAPOJUVANIA', Id: '47B1C7D9062BDB7E', PresenceEventId:2, PlayerNumber: 36, IsMissing: True]
+[22:18:43.627][DG][MnlSmile][Debug] Player 'A047B82A1813B372' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[22:18:43.636][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: '小鹏友yo', Id: 'A047B82A1813B372', PresenceEventId:2, PlayerNumber: 27, IsMissing: True]
+[22:18:47.196][DG][MnlSmile][Debug] Game starts in 5 ...
+[22:18:47.858][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: 'LAPOJUVANIA', Id: '47B1C7D9062BDB7E', PresenceEventId:3, PlayerNumber: 37, IsMissing: False]
+[22:18:47.858][DG][MnlSmile][Warn] Player tried to join during game start - removing them!
+[22:18:47.858][DG][MnlSmile][Debug] [Connection] Sending kick message for player '47B1C7D9062BDB7E '(Msg: JoinErrMatchInProgress)
+[22:18:47.899][DG][MnlSmile][Debug] Player '47B1C7D9062BDB7E' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[22:18:47.899][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: 'LAPOJUVANIA', Id: '47B1C7D9062BDB7E', PresenceEventId:4, PlayerNumber: 37, IsMissing: True]
+[22:18:48.194][DG][MnlSmile][Debug] Game starts in 4 ...
+[22:18:49.200][DG][MnlSmile][Debug] Game starts in 3 ...
+[22:18:50.207][DG][MnlSmile][Debug] Game starts in 2 ...
+[22:18:51.220][DG][MnlSmile][Debug] Game starts in 1 ...
+[22:18:52.222][DG][MnlSmile][Debug] Got Start Match Message from host [HazelPresence Name: 'MnlSmile', Id: 'E8C38E2FAF40AF83', PresenceEventId:0, PlayerNumber: 1, IsMissing: False]! Loading game scene ...
+Unloading 1 Unused Serialized files (Serialized files now loaded: 54)
+UnloadTime: 21.555800 ms
+[22:18:52.312][DG][MnlSmile][Debug] Going to specified scene: ChainMode
+[22:18:52.719][DG][MnlSmile][Debug] Going to tell everyone that we're ready
+[22:18:52.764][DG][MnlSmile][Debug] [Round 0] Transitioning from '' to 'WaitForConnect'
+Unloading 523 unused Assets to reduce memory usage. Loaded Objects now: 43663.
+Total: 73.482500 ms (FindLiveObjects: 3.380600 ms CreateObjectMapping: 2.319400 ms MarkObjects: 65.907200 ms  DeleteObjects: 1.874900 ms)
+
+[22:18:52.935][DG][MnlSmile][Debug] [Round 0] Transitioning from 'WaitForConnect' to 'WaitForConnect'
+[22:18:53.003][DG][MnlSmile][Debug] [Round 0] Transitioning from 'WaitForConnect' to 'WaitForConnect'
+[22:18:53.168][DG][MnlSmile][Debug] [Round 0] Transitioning from 'WaitForConnect' to 'WaitForConnect'
+[22:18:53.177][DG][MnlSmile][Debug] [Round 0] Transitioning from 'WaitForConnect' to 'WaitForConnect'
+[22:18:53.369][DG][MnlSmile][Debug] [Round 0] Transitioning from 'WaitForConnect' to 'WaitForConnect'
+[22:18:54.178][DG][MnlSmile][Debug] [Round 0] Transitioning from 'WaitForConnect' to 'WaitForConnect'
+[22:18:55.619][DG][MnlSmile][Debug] [Round 0] Transitioning from 'WaitForConnect' to 'WaitForConnect'
+[22:18:55.826][DG][MnlSmile][Debug] Starting Chain Mode
+[22:18:55.826][DG][MnlSmile][Debug] 
+[22:18:55.828][DG][MnlSmile][Debug] [Round 1] Transitioning from 'WaitForConnect' to 'ChoosingWord'
+[22:19:07.250][DG][MnlSmile][Debug] 
+[22:19:07.288][DG][MnlSmile][Debug] [Round 1] Transitioning from 'ChoosingWord' to 'Drawing'
+[22:19:07.288][DG][MnlSmile][Debug] Guess module will be hidden here...
+[22:19:07.288][DG][MnlSmile][Debug] Guess module was hidden! No crash!
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:22:11.230][DG][MnlSmile][Debug] [Turn 2] Prepare Guessing phase
+[22:22:11.230][DG][MnlSmile][Debug] 
+[22:22:11.236][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Drawing' to 'Guessing'
+[22:22:11.310][DG][MnlSmile][Debug] [DrawingSync][D32A69EC52FE7BC8] Comparing our 15 drawing(s) against the 15 drawing(s) from '忧郁的尺' ...
+[22:22:11.310][DG][MnlSmile][Debug] [DrawingSync][D32A69EC52FE7BC8] All drawings are the same version as ours!
+[22:22:11.327][DG][MnlSmile][Debug] [DrawingSync][92D3410C68874539] Comparing our 15 drawing(s) against the 15 drawing(s) from '冷静的山' ...
+[22:22:11.328][DG][MnlSmile][Debug] [DrawingSync][92D3410C68874539] All drawings are the same version as ours!
+[22:22:11.329][DG][MnlSmile][Debug] [DrawingSync][1FDBBCF8CEB8698A] Comparing our 15 drawing(s) against the 15 drawing(s) from '杉杉水水流遍全身' ...
+[22:22:11.329][DG][MnlSmile][Debug] [DrawingSync][1FDBBCF8CEB8698A] All drawings are the same version as ours!
+[22:22:11.330][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] Comparing our 15 drawing(s) against the 15 drawing(s) from 'Flamed-ki' ...
+[22:22:11.330][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] All drawings are the same version as ours!
+[22:22:11.339][DG][MnlSmile][Debug] [DrawingSync][521DEC8145B148E6] Comparing our 15 drawing(s) against the 15 drawing(s) from 'TIETI' ...
+[22:22:11.339][DG][MnlSmile][Debug] [DrawingSync][521DEC8145B148E6] All drawings are the same version as ours!
+[22:22:11.341][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] Comparing our 15 drawing(s) against the 15 drawing(s) from '我爱昔涟' ...
+[22:22:11.341][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] All drawings are the same version as ours!
+[22:22:11.342][DG][MnlSmile][Debug] [DrawingSync][69692BFC963DD53C] Comparing our 15 drawing(s) against the 15 drawing(s) from '炸鸡大王ovo' ...
+[22:22:11.342][DG][MnlSmile][Debug] [DrawingSync][69692BFC963DD53C] All drawings are the same version as ours!
+[22:22:11.343][DG][MnlSmile][Debug] [DrawingSync][D1A64D66C35BBBEC] Comparing our 15 drawing(s) against the 15 drawing(s) from '安戈上校' ...
+[22:22:11.343][DG][MnlSmile][Debug] [DrawingSync][D1A64D66C35BBBEC] All drawings are the same version as ours!
+[22:22:11.350][DG][MnlSmile][Debug] [DrawingSync][3998FCE37B95632C] Comparing our 15 drawing(s) against the 15 drawing(s) from 'White Samoye' ...
+[22:22:11.350][DG][MnlSmile][Debug] [DrawingSync][3998FCE37B95632C] All drawings are the same version as ours!
+[22:22:11.367][DG][MnlSmile][Debug] [DrawingSync][CEEC2A6F5918C1EF] Comparing our 15 drawing(s) against the 15 drawing(s) from '雨中的游戏者' ...
+[22:22:11.367][DG][MnlSmile][Debug] [DrawingSync][CEEC2A6F5918C1EF] All drawings are the same version as ours!
+[22:22:11.375][DG][MnlSmile][Debug] [DrawingSync][E0AFB4F84D171194] Comparing our 15 drawing(s) against the 15 drawing(s) from 'YIDAAAA' ...
+[22:22:11.375][DG][MnlSmile][Debug] [DrawingSync][E0AFB4F84D171194] All drawings are the same version as ours!
+[22:22:11.459][DG][MnlSmile][Debug] [DrawingSync][25B246F54716BC6] Comparing our 15 drawing(s) against the 15 drawing(s) from '小猫小猫翻跟斗' ...
+[22:22:11.459][DG][MnlSmile][Debug] [DrawingSync][25B246F54716BC6] All drawings are the same version as ours!
+[22:22:11.506][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] Comparing our 15 drawing(s) against the 15 drawing(s) from 'Tkk17' ...
+[22:22:11.507][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] All drawings are the same version as ours!
+[22:22:11.549][DG][MnlSmile][Debug] [DrawingSync][223A19FE8CBE91A8] Comparing our 15 drawing(s) against the 15 drawing(s) from '寿司又输了' ...
+[22:22:11.551][DG][MnlSmile][Debug] [DrawingSync][223A19FE8CBE91A8] All drawings are the same version as ours!
+[22:22:43.230][DG][MnlSmile][Debug] [Turn 3] Prepare Drawing phase
+[22:22:43.230][DG][MnlSmile][Debug] 
+[22:22:43.237][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Guessing' to 'Drawing'
+[22:22:43.237][DG][MnlSmile][Debug] Guess module will be hidden here...
+[22:22:43.238][DG][MnlSmile][Debug] Guess module was hidden! No crash!
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:25:47.215][DG][MnlSmile][Debug] [Turn 4] Prepare Guessing phase
+[22:25:47.215][DG][MnlSmile][Debug] 
+[22:25:47.221][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Drawing' to 'Guessing'
+[22:25:47.283][DG][MnlSmile][Debug] [DrawingSync][D32A69EC52FE7BC8] Comparing our 30 drawing(s) against the 30 drawing(s) from '忧郁的尺' ...
+[22:25:47.283][DG][MnlSmile][Debug] [DrawingSync][D32A69EC52FE7BC8] All drawings are the same version as ours!
+[22:25:47.308][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] Comparing our 30 drawing(s) against the 30 drawing(s) from 'Flamed-ki' ...
+[22:25:47.308][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] All drawings are the same version as ours!
+[22:25:47.317][DG][MnlSmile][Debug] [DrawingSync][92D3410C68874539] Comparing our 30 drawing(s) against the 30 drawing(s) from '冷静的山' ...
+[22:25:47.317][DG][MnlSmile][Debug] [DrawingSync][92D3410C68874539] All drawings are the same version as ours!
+[22:25:47.320][DG][MnlSmile][Debug] [DrawingSync][69692BFC963DD53C] Comparing our 30 drawing(s) against the 30 drawing(s) from '炸鸡大王ovo' ...
+[22:25:47.320][DG][MnlSmile][Debug] [DrawingSync][69692BFC963DD53C] All drawings are the same version as ours!
+[22:25:47.321][DG][MnlSmile][Debug] [DrawingSync][521DEC8145B148E6] Comparing our 30 drawing(s) against the 30 drawing(s) from 'TIETI' ...
+[22:25:47.321][DG][MnlSmile][Debug] [DrawingSync][521DEC8145B148E6] All drawings are the same version as ours!
+[22:25:47.322][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] Comparing our 30 drawing(s) against the 30 drawing(s) from '我爱昔涟' ...
+[22:25:47.322][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] All drawings are the same version as ours!
+[22:25:47.335][DG][MnlSmile][Debug] [DrawingSync][223A19FE8CBE91A8] Comparing our 30 drawing(s) against the 30 drawing(s) from '寿司又输了' ...
+[22:25:47.336][DG][MnlSmile][Debug] [DrawingSync][223A19FE8CBE91A8] All drawings are the same version as ours!
+[22:25:47.352][DG][MnlSmile][Debug] [DrawingSync][3998FCE37B95632C] Comparing our 30 drawing(s) against the 30 drawing(s) from 'White Samoye' ...
+[22:25:47.352][DG][MnlSmile][Debug] [DrawingSync][3998FCE37B95632C] All drawings are the same version as ours!
+[22:25:47.360][DG][MnlSmile][Debug] [DrawingSync][25B246F54716BC6] Comparing our 30 drawing(s) against the 30 drawing(s) from '小猫小猫翻跟斗' ...
+[22:25:47.360][DG][MnlSmile][Debug] [DrawingSync][25B246F54716BC6] All drawings are the same version as ours!
+[22:25:47.385][DG][MnlSmile][Debug] [DrawingSync][E0AFB4F84D171194] Comparing our 30 drawing(s) against the 30 drawing(s) from 'YIDAAAA' ...
+[22:25:47.385][DG][MnlSmile][Debug] [DrawingSync][E0AFB4F84D171194] All drawings are the same version as ours!
+[22:25:47.443][DG][MnlSmile][Debug] [DrawingSync][D1A64D66C35BBBEC] Comparing our 30 drawing(s) against the 30 drawing(s) from '安戈上校' ...
+[22:25:47.444][DG][MnlSmile][Debug] [DrawingSync][D1A64D66C35BBBEC] All drawings are the same version as ours!
+[22:25:47.445][DG][MnlSmile][Debug] [DrawingSync][CEEC2A6F5918C1EF] Comparing our 30 drawing(s) against the 30 drawing(s) from '雨中的游戏者' ...
+[22:25:47.445][DG][MnlSmile][Debug] [DrawingSync][CEEC2A6F5918C1EF] All drawings are the same version as ours!
+[22:25:47.706][DG][MnlSmile][Debug] [DrawingSync][1FDBBCF8CEB8698A] Comparing our 30 drawing(s) against the 30 drawing(s) from '杉杉水水流遍全身' ...
+[22:25:47.706][DG][MnlSmile][Debug] [DrawingSync][1FDBBCF8CEB8698A] All drawings are the same version as ours!
+[22:25:47.741][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] Comparing our 30 drawing(s) against the 30 drawing(s) from 'Tkk17' ...
+[22:25:47.742][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] All drawings are the same version as ours!
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:26:19.837][DG][MnlSmile][Debug] [Turn 5] Prepare Drawing phase
+[22:26:19.837][DG][MnlSmile][Debug] 
+[22:26:19.844][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Guessing' to 'Drawing'
+[22:26:19.844][DG][MnlSmile][Debug] Guess module will be hidden here...
+[22:26:19.844][DG][MnlSmile][Debug] Guess module was hidden! No crash!
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:29:20.450][DG][MnlSmile][Warn] RoundManager: Player [HazelPresence Name: '冷静的山', Id: '92D3410C68874539', PresenceEventId:2, PlayerNumber: 18, IsMissing: True] disconnected
+[22:29:24.467][DG][MnlSmile][Warn] remote player gone for longer than buffertime: [HazelPresence Name: '冷静的山', Id: '92D3410C68874539', PresenceEventId:2, PlayerNumber: 18, IsMissing: True]
+[22:29:24.468][DG][MnlSmile][Debug] They did NOT announce their disconnect - Start waiting!
+[22:29:24.474][DG][MnlSmile][Debug] Setting paused: True [IsHost: True | IsConnected: True]
+[22:29:24.484][DG][MnlSmile][Debug] Waiting for 1 player(s) to reconnect...
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:29:57.994][DG][MnlSmile][Warn] RoundManager: Player [HazelPresence Name: 'YIDAAAA', Id: 'E0AFB4F84D171194', PresenceEventId:2, PlayerNumber: 13, IsMissing: True] disconnected
+[22:30:09.006][DG][MnlSmile][Warn] Host has cancelled waiting for disconnected players!
+[22:30:09.007][DG][MnlSmile][Warn] PlayerId '92D3410C68874539' is now blocked from reconnecting
+[22:30:09.013][DG][MnlSmile][Debug] Evaluated after removal of players: Game can continue
+[22:30:09.015][DG][MnlSmile][Debug] Setting paused: False [IsHost: True | IsConnected: True]
+[22:30:09.018][DG][MnlSmile][Warn] remote player gone for longer than buffertime: [HazelPresence Name: 'YIDAAAA', Id: 'E0AFB4F84D171194', PresenceEventId:2, PlayerNumber: 13, IsMissing: True]
+[22:30:09.018][DG][MnlSmile][Debug] They did NOT announce their disconnect - Start waiting!
+[22:30:09.019][DG][MnlSmile][Debug] Setting paused: True [IsHost: True | IsConnected: True]
+[22:30:09.024][DG][MnlSmile][Debug] Waiting for 1 player(s) to reconnect...
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:30:25.509][DG][MnlSmile][Warn] Host has cancelled waiting for disconnected players!
+[22:30:25.509][DG][MnlSmile][Warn] PlayerId 'E0AFB4F84D171194' is now blocked from reconnecting
+[22:30:25.511][DG][MnlSmile][Debug] Evaluated after removal of players: Game can continue
+[22:30:25.514][DG][MnlSmile][Debug] Setting paused: False [IsHost: True | IsConnected: True]
+[22:30:32.818][DG][MnlSmile][Debug] [Turn 6] Prepare Guessing phase
+[22:30:32.819][DG][MnlSmile][Debug] 
+[22:30:32.826][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Drawing' to 'Guessing'
+[22:30:32.900][DG][MnlSmile][Debug] [DrawingSync][D32A69EC52FE7BC8] Comparing our 45 drawing(s) against the 45 drawing(s) from '忧郁的尺' ...
+[22:30:32.901][DG][MnlSmile][Debug] [DrawingSync][D32A69EC52FE7BC8] All drawings are the same version as ours!
+[22:30:32.917][DG][MnlSmile][Debug] [DrawingSync][521DEC8145B148E6] Comparing our 45 drawing(s) against the 45 drawing(s) from 'TIETI' ...
+[22:30:32.918][DG][MnlSmile][Debug] [DrawingSync][521DEC8145B148E6] All drawings are the same version as ours!
+[22:30:32.920][DG][MnlSmile][Debug] [DrawingSync][1FDBBCF8CEB8698A] Comparing our 45 drawing(s) against the 45 drawing(s) from '杉杉水水流遍全身' ...
+[22:30:32.920][DG][MnlSmile][Debug] [DrawingSync][1FDBBCF8CEB8698A] All drawings are the same version as ours!
+[22:30:32.921][DG][MnlSmile][Debug] [DrawingSync][69692BFC963DD53C] Comparing our 45 drawing(s) against the 45 drawing(s) from '炸鸡大王ovo' ...
+[22:30:32.921][DG][MnlSmile][Debug] [DrawingSync][69692BFC963DD53C] All drawings are the same version as ours!
+[22:30:32.925][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] Comparing our 45 drawing(s) against the 45 drawing(s) from '我爱昔涟' ...
+[22:30:32.926][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] All drawings are the same version as ours!
+[22:30:32.935][DG][MnlSmile][Debug] [DrawingSync][D1A64D66C35BBBEC] Comparing our 45 drawing(s) against the 45 drawing(s) from '安戈上校' ...
+[22:30:32.935][DG][MnlSmile][Debug] [DrawingSync][D1A64D66C35BBBEC] All drawings are the same version as ours!
+[22:30:32.936][DG][MnlSmile][Debug] [DrawingSync][CEEC2A6F5918C1EF] Comparing our 45 drawing(s) against the 45 drawing(s) from '雨中的游戏者' ...
+[22:30:32.936][DG][MnlSmile][Debug] [DrawingSync][CEEC2A6F5918C1EF] All drawings are the same version as ours!
+[22:30:32.959][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] Comparing our 45 drawing(s) against the 45 drawing(s) from 'Flamed-ki' ...
+[22:30:32.959][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] All drawings are the same version as ours!
+[22:30:32.960][DG][MnlSmile][Debug] [DrawingSync][3998FCE37B95632C] Comparing our 45 drawing(s) against the 45 drawing(s) from 'White Samoye' ...
+[22:30:32.960][DG][MnlSmile][Debug] [DrawingSync][3998FCE37B95632C] All drawings are the same version as ours!
+[22:30:32.961][DG][MnlSmile][Debug] [DrawingSync][25B246F54716BC6] Comparing our 45 drawing(s) against the 45 drawing(s) from '小猫小猫翻跟斗' ...
+[22:30:32.961][DG][MnlSmile][Debug] [DrawingSync][25B246F54716BC6] All drawings are the same version as ours!
+[22:30:33.092][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] Comparing our 45 drawing(s) against the 45 drawing(s) from 'Tkk17' ...
+[22:30:33.093][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] All drawings are the same version as ours!
+[22:30:33.184][DG][MnlSmile][Debug] [DrawingSync][223A19FE8CBE91A8] Comparing our 45 drawing(s) against the 45 drawing(s) from '寿司又输了' ...
+[22:30:33.184][DG][MnlSmile][Debug] [DrawingSync][223A19FE8CBE91A8] All drawings are the same version as ours!
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:31:03.946][DG][MnlSmile][Debug] [Turn 7] Prepare Drawing phase
+[22:31:03.946][DG][MnlSmile][Debug] 
+[22:31:03.953][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Guessing' to 'Drawing'
+[22:31:03.953][DG][MnlSmile][Debug] Guess module will be hidden here...
+[22:31:03.953][DG][MnlSmile][Debug] Guess module was hidden! No crash!
+[22:31:19.175][DG][MnlSmile][Warn] RoundManager: Player [HazelPresence Name: '忧郁的尺', Id: 'D32A69EC52FE7BC8', PresenceEventId:2, PlayerNumber: 26, IsMissing: True] disconnected
+[22:31:23.186][DG][MnlSmile][Warn] remote player gone for longer than buffertime: [HazelPresence Name: '忧郁的尺', Id: 'D32A69EC52FE7BC8', PresenceEventId:2, PlayerNumber: 26, IsMissing: True]
+[22:31:23.186][DG][MnlSmile][Debug] They did NOT announce their disconnect - Start waiting!
+[22:31:23.188][DG][MnlSmile][Debug] Setting paused: True [IsHost: True | IsConnected: True]
+[22:31:23.192][DG][MnlSmile][Debug] Waiting for 1 player(s) to reconnect...
+[22:31:45.593][DG][MnlSmile][Warn] Host has cancelled waiting for disconnected players!
+[22:31:45.593][DG][MnlSmile][Warn] PlayerId 'D32A69EC52FE7BC8' is now blocked from reconnecting
+[22:31:45.595][DG][MnlSmile][Debug] Evaluated after removal of players: Game can continue
+[22:31:45.598][DG][MnlSmile][Debug] Setting paused: False [IsHost: True | IsConnected: True]
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:34:30.563][DG][MnlSmile][Debug] [Turn 8] Prepare Guessing phase
+[22:34:30.563][DG][MnlSmile][Debug] 
+[22:34:30.568][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Drawing' to 'Guessing'
+[22:34:30.655][DG][MnlSmile][Debug] [DrawingSync][521DEC8145B148E6] Comparing our 58 drawing(s) against the 58 drawing(s) from 'TIETI' ...
+[22:34:30.655][DG][MnlSmile][Debug] [DrawingSync][521DEC8145B148E6][518197] Skipping drawing with 0 lines in version 0
+[22:34:30.655][DG][MnlSmile][Debug] [DrawingSync][521DEC8145B148E6] All drawings are the same version as ours!
+[22:34:30.657][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] Comparing our 58 drawing(s) against the 58 drawing(s) from 'Flamed-ki' ...
+[22:34:30.657][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716][518197] Skipping drawing with 0 lines in version 0
+[22:34:30.657][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] All drawings are the same version as ours!
+[22:34:30.661][DG][MnlSmile][Debug] [DrawingSync][1FDBBCF8CEB8698A] Comparing our 58 drawing(s) against the 58 drawing(s) from '杉杉水水流遍全身' ...
+[22:34:30.661][DG][MnlSmile][Debug] [DrawingSync][1FDBBCF8CEB8698A][518197] Skipping drawing with 0 lines in version 0
+[22:34:30.661][DG][MnlSmile][Debug] [DrawingSync][1FDBBCF8CEB8698A] All drawings are the same version as ours!
+[22:34:30.664][DG][MnlSmile][Debug] [DrawingSync][69692BFC963DD53C] Comparing our 58 drawing(s) against the 58 drawing(s) from '炸鸡大王ovo' ...
+[22:34:30.664][DG][MnlSmile][Debug] [DrawingSync][69692BFC963DD53C][518197] Skipping drawing with 0 lines in version 0
+[22:34:30.664][DG][MnlSmile][Debug] [DrawingSync][69692BFC963DD53C] All drawings are the same version as ours!
+[22:34:30.685][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] Comparing our 58 drawing(s) against the 58 drawing(s) from '我爱昔涟' ...
+[22:34:30.685][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB][518197] Skipping drawing with 0 lines in version 0
+[22:34:30.686][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] All drawings are the same version as ours!
+[22:34:30.718][DG][MnlSmile][Debug] [DrawingSync][3998FCE37B95632C] Comparing our 58 drawing(s) against the 58 drawing(s) from 'White Samoye' ...
+[22:34:30.718][DG][MnlSmile][Debug] [DrawingSync][3998FCE37B95632C][518197] Skipping drawing with 0 lines in version 0
+[22:34:30.718][DG][MnlSmile][Debug] [DrawingSync][3998FCE37B95632C] All drawings are the same version as ours!
+[22:34:30.720][DG][MnlSmile][Debug] [DrawingSync][25B246F54716BC6] Comparing our 58 drawing(s) against the 58 drawing(s) from '小猫小猫翻跟斗' ...
+[22:34:30.720][DG][MnlSmile][Debug] [DrawingSync][25B246F54716BC6][518197] Skipping drawing with 0 lines in version 0
+[22:34:30.720][DG][MnlSmile][Debug] [DrawingSync][25B246F54716BC6] All drawings are the same version as ours!
+[22:34:30.777][DG][MnlSmile][Debug] [DrawingSync][CEEC2A6F5918C1EF] Comparing our 58 drawing(s) against the 58 drawing(s) from '雨中的游戏者' ...
+[22:34:30.778][DG][MnlSmile][Debug] [DrawingSync][CEEC2A6F5918C1EF][518197] Skipping drawing with 0 lines in version 0
+[22:34:30.778][DG][MnlSmile][Debug] [DrawingSync][CEEC2A6F5918C1EF] All drawings are the same version as ours!
+[22:34:30.780][DG][MnlSmile][Debug] [DrawingSync][D1A64D66C35BBBEC] Comparing our 58 drawing(s) against the 58 drawing(s) from '安戈上校' ...
+[22:34:30.780][DG][MnlSmile][Debug] [DrawingSync][D1A64D66C35BBBEC][518197] Skipping drawing with 0 lines in version 0
+[22:34:30.780][DG][MnlSmile][Debug] [DrawingSync][D1A64D66C35BBBEC] All drawings are the same version as ours!
+[22:34:30.852][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] Comparing our 58 drawing(s) against the 58 drawing(s) from 'Tkk17' ...
+[22:34:30.853][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3][518197] Skipping drawing with 0 lines in version 0
+[22:34:30.853][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] All drawings are the same version as ours!
+[22:34:31.052][DG][MnlSmile][Debug] [DrawingSync][223A19FE8CBE91A8] Comparing our 58 drawing(s) against the 58 drawing(s) from '寿司又输了' ...
+[22:34:31.053][DG][MnlSmile][Debug] [DrawingSync][223A19FE8CBE91A8][518197] Skipping drawing with 0 lines in version 0
+[22:34:31.053][DG][MnlSmile][Debug] [DrawingSync][223A19FE8CBE91A8] All drawings are the same version as ours!
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:35:02.445][DG][MnlSmile][Debug] [Turn 9] Prepare Drawing phase
+[22:35:02.445][DG][MnlSmile][Debug] 
+[22:35:02.449][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Guessing' to 'Drawing'
+[22:35:02.449][DG][MnlSmile][Debug] Guess module will be hidden here...
+[22:35:02.451][DG][MnlSmile][Debug] Guess module was hidden! No crash!
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:38:06.407][DG][MnlSmile][Debug] [Turn 10] Prepare Guessing phase
+[22:38:06.407][DG][MnlSmile][Debug] 
+[22:38:06.413][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Drawing' to 'Guessing'
+[22:38:06.497][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] Comparing our 70 drawing(s) against the 70 drawing(s) from 'Flamed-ki' ...
+[22:38:06.497][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716][518197] Skipping drawing with 0 lines in version 0
+[22:38:06.498][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] All drawings are the same version as ours!
+[22:38:06.506][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] Comparing our 70 drawing(s) against the 70 drawing(s) from '我爱昔涟' ...
+[22:38:06.506][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB][518197] Skipping drawing with 0 lines in version 0
+[22:38:06.507][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] All drawings are the same version as ours!
+[22:38:06.509][DG][MnlSmile][Debug] [DrawingSync][1FDBBCF8CEB8698A] Comparing our 70 drawing(s) against the 70 drawing(s) from '杉杉水水流遍全身' ...
+[22:38:06.509][DG][MnlSmile][Debug] [DrawingSync][1FDBBCF8CEB8698A][518197] Skipping drawing with 0 lines in version 0
+[22:38:06.509][DG][MnlSmile][Debug] [DrawingSync][1FDBBCF8CEB8698A] All drawings are the same version as ours!
+[22:38:06.512][DG][MnlSmile][Debug] [DrawingSync][69692BFC963DD53C] Comparing our 70 drawing(s) against the 70 drawing(s) from '炸鸡大王ovo' ...
+[22:38:06.512][DG][MnlSmile][Debug] [DrawingSync][69692BFC963DD53C][518197] Skipping drawing with 0 lines in version 0
+[22:38:06.512][DG][MnlSmile][Debug] [DrawingSync][69692BFC963DD53C] All drawings are the same version as ours!
+[22:38:06.515][DG][MnlSmile][Debug] [DrawingSync][521DEC8145B148E6] Comparing our 70 drawing(s) against the 70 drawing(s) from 'TIETI' ...
+[22:38:06.515][DG][MnlSmile][Debug] [DrawingSync][521DEC8145B148E6][518197] Skipping drawing with 0 lines in version 0
+[22:38:06.515][DG][MnlSmile][Debug] [DrawingSync][521DEC8145B148E6] All drawings are the same version as ours!
+[22:38:06.528][DG][MnlSmile][Debug] [DrawingSync][D1A64D66C35BBBEC] Comparing our 70 drawing(s) against the 70 drawing(s) from '安戈上校' ...
+[22:38:06.528][DG][MnlSmile][Debug] [DrawingSync][D1A64D66C35BBBEC][518197] Skipping drawing with 0 lines in version 0
+[22:38:06.530][DG][MnlSmile][Debug] [DrawingSync][D1A64D66C35BBBEC] All drawings are the same version as ours!
+[22:38:06.531][DG][MnlSmile][Debug] [DrawingSync][25B246F54716BC6] Comparing our 70 drawing(s) against the 70 drawing(s) from '小猫小猫翻跟斗' ...
+[22:38:06.531][DG][MnlSmile][Debug] [DrawingSync][25B246F54716BC6][518197] Skipping drawing with 0 lines in version 0
+[22:38:06.531][DG][MnlSmile][Debug] [DrawingSync][25B246F54716BC6] All drawings are the same version as ours!
+[22:38:06.555][DG][MnlSmile][Debug] [DrawingSync][3998FCE37B95632C] Comparing our 70 drawing(s) against the 70 drawing(s) from 'White Samoye' ...
+[22:38:06.555][DG][MnlSmile][Debug] [DrawingSync][3998FCE37B95632C][518197] Skipping drawing with 0 lines in version 0
+[22:38:06.555][DG][MnlSmile][Debug] [DrawingSync][3998FCE37B95632C] All drawings are the same version as ours!
+[22:38:06.579][DG][MnlSmile][Debug] [DrawingSync][223A19FE8CBE91A8] Comparing our 70 drawing(s) against the 70 drawing(s) from '寿司又输了' ...
+[22:38:06.580][DG][MnlSmile][Debug] [DrawingSync][223A19FE8CBE91A8][518197] Skipping drawing with 0 lines in version 0
+[22:38:06.580][DG][MnlSmile][Debug] [DrawingSync][223A19FE8CBE91A8] All drawings are the same version as ours!
+[22:38:06.624][DG][MnlSmile][Debug] [DrawingSync][CEEC2A6F5918C1EF] Comparing our 70 drawing(s) against the 70 drawing(s) from '雨中的游戏者' ...
+[22:38:06.624][DG][MnlSmile][Debug] [DrawingSync][CEEC2A6F5918C1EF][518197] Skipping drawing with 0 lines in version 0
+[22:38:06.624][DG][MnlSmile][Debug] [DrawingSync][CEEC2A6F5918C1EF] All drawings are the same version as ours!
+[22:38:06.683][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] Comparing our 70 drawing(s) against the 70 drawing(s) from 'Tkk17' ...
+[22:38:06.683][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3][518197] Skipping drawing with 0 lines in version 0
+[22:38:06.683][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] All drawings are the same version as ours!
+[22:38:38.398][DG][MnlSmile][Debug] [Turn 11] Prepare Drawing phase
+[22:38:38.398][DG][MnlSmile][Debug] 
+[22:38:38.403][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Guessing' to 'Drawing'
+[22:38:38.403][DG][MnlSmile][Debug] Guess module will be hidden here...
+[22:38:38.403][DG][MnlSmile][Debug] Guess module was hidden! No crash!
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:41:42.337][DG][MnlSmile][Debug] [Turn 12] Prepare Guessing phase
+[22:41:42.337][DG][MnlSmile][Debug] 
+[22:41:42.340][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Drawing' to 'Guessing'
+[22:41:42.435][DG][MnlSmile][Debug] [DrawingSync][521DEC8145B148E6] Comparing our 82 drawing(s) against the 82 drawing(s) from 'TIETI' ...
+[22:41:42.435][DG][MnlSmile][Debug] [DrawingSync][521DEC8145B148E6][518197] Skipping drawing with 0 lines in version 0
+[22:41:42.436][DG][MnlSmile][Debug] [DrawingSync][521DEC8145B148E6] All drawings are the same version as ours!
+[22:41:42.438][DG][MnlSmile][Debug] [DrawingSync][69692BFC963DD53C] Comparing our 82 drawing(s) against the 82 drawing(s) from '炸鸡大王ovo' ...
+[22:41:42.438][DG][MnlSmile][Debug] [DrawingSync][69692BFC963DD53C][518197] Skipping drawing with 0 lines in version 0
+[22:41:42.438][DG][MnlSmile][Debug] [DrawingSync][69692BFC963DD53C] All drawings are the same version as ours!
+[22:41:42.445][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] Comparing our 82 drawing(s) against the 82 drawing(s) from '我爱昔涟' ...
+[22:41:42.445][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB][518197] Skipping drawing with 0 lines in version 0
+[22:41:42.445][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] All drawings are the same version as ours!
+[22:41:42.447][DG][MnlSmile][Debug] [DrawingSync][CEEC2A6F5918C1EF] Comparing our 82 drawing(s) against the 82 drawing(s) from '雨中的游戏者' ...
+[22:41:42.447][DG][MnlSmile][Debug] [DrawingSync][CEEC2A6F5918C1EF][518197] Skipping drawing with 0 lines in version 0
+[22:41:42.447][DG][MnlSmile][Debug] [DrawingSync][CEEC2A6F5918C1EF][514477] Re-sending missing drawing with 77 lines and 572 points in version 6
+[22:41:42.461][DG][MnlSmile][Debug] [DrawingSync][CEEC2A6F5918C1EF] Synced 1 drawing(s) that were a different version from ours!
+[22:41:42.466][DG][MnlSmile][Debug] [DrawingSync][D1A64D66C35BBBEC] Comparing our 82 drawing(s) against the 82 drawing(s) from '安戈上校' ...
+[22:41:42.466][DG][MnlSmile][Debug] [DrawingSync][D1A64D66C35BBBEC][518197] Skipping drawing with 0 lines in version 0
+[22:41:42.466][DG][MnlSmile][Debug] [DrawingSync][D1A64D66C35BBBEC] All drawings are the same version as ours!
+[22:41:42.469][DG][MnlSmile][Debug] [DrawingSync][25B246F54716BC6] Comparing our 82 drawing(s) against the 82 drawing(s) from '小猫小猫翻跟斗' ...
+[22:41:42.469][DG][MnlSmile][Debug] [DrawingSync][25B246F54716BC6][518197] Skipping drawing with 0 lines in version 0
+[22:41:42.469][DG][MnlSmile][Debug] [DrawingSync][25B246F54716BC6] All drawings are the same version as ours!
+[22:41:42.470][DG][MnlSmile][Debug] [DrawingSync][3998FCE37B95632C] Comparing our 82 drawing(s) against the 82 drawing(s) from 'White Samoye' ...
+[22:41:42.470][DG][MnlSmile][Debug] [DrawingSync][3998FCE37B95632C][518197] Skipping drawing with 0 lines in version 0
+[22:41:42.470][DG][MnlSmile][Debug] [DrawingSync][3998FCE37B95632C] All drawings are the same version as ours!
+[22:41:42.591][DG][MnlSmile][Debug] [DrawingSync][223A19FE8CBE91A8] Comparing our 82 drawing(s) against the 82 drawing(s) from '寿司又输了' ...
+[22:41:42.591][DG][MnlSmile][Debug] [DrawingSync][223A19FE8CBE91A8][518197] Skipping drawing with 0 lines in version 0
+[22:41:42.592][DG][MnlSmile][Debug] [DrawingSync][223A19FE8CBE91A8] All drawings are the same version as ours!
+[22:41:42.616][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] Comparing our 82 drawing(s) against the 82 drawing(s) from 'Tkk17' ...
+[22:41:42.616][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3][518197] Skipping drawing with 0 lines in version 0
+[22:41:42.617][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] All drawings are the same version as ours!
+[22:41:42.649][DG][MnlSmile][Debug] [DrawingSync][1FDBBCF8CEB8698A] Comparing our 82 drawing(s) against the 82 drawing(s) from '杉杉水水流遍全身' ...
+[22:41:42.649][DG][MnlSmile][Debug] [DrawingSync][1FDBBCF8CEB8698A][518197] Skipping drawing with 0 lines in version 0
+[22:41:42.650][DG][MnlSmile][Debug] [DrawingSync][1FDBBCF8CEB8698A] All drawings are the same version as ours!
+[22:41:42.799][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] Comparing our 82 drawing(s) against the 82 drawing(s) from 'Flamed-ki' ...
+[22:41:42.799][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716][518197] Skipping drawing with 0 lines in version 0
+[22:41:42.799][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] All drawings are the same version as ours!
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:42:14.545][DG][MnlSmile][Debug] [Turn 13] Prepare Drawing phase
+[22:42:14.545][DG][MnlSmile][Debug] 
+[22:42:14.549][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Guessing' to 'Drawing'
+[22:42:14.549][DG][MnlSmile][Debug] Guess module will be hidden here...
+[22:42:14.549][DG][MnlSmile][Debug] Guess module was hidden! No crash!
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:45:18.472][DG][MnlSmile][Debug] [Turn 14] Prepare Guessing phase
+[22:45:18.472][DG][MnlSmile][Debug] 
+[22:45:18.476][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Drawing' to 'Guessing'
+[22:45:18.571][DG][MnlSmile][Debug] [DrawingSync][521DEC8145B148E6] Comparing our 94 drawing(s) against the 94 drawing(s) from 'TIETI' ...
+[22:45:18.571][DG][MnlSmile][Debug] [DrawingSync][521DEC8145B148E6][518197] Skipping drawing with 0 lines in version 0
+[22:45:18.571][DG][MnlSmile][Debug] [DrawingSync][521DEC8145B148E6] All drawings are the same version as ours!
+[22:45:18.574][DG][MnlSmile][Debug] [DrawingSync][1FDBBCF8CEB8698A] Comparing our 94 drawing(s) against the 94 drawing(s) from '杉杉水水流遍全身' ...
+[22:45:18.574][DG][MnlSmile][Debug] [DrawingSync][1FDBBCF8CEB8698A][518197] Skipping drawing with 0 lines in version 0
+[22:45:18.574][DG][MnlSmile][Debug] [DrawingSync][1FDBBCF8CEB8698A] All drawings are the same version as ours!
+[22:45:18.575][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] Comparing our 94 drawing(s) against the 94 drawing(s) from 'Flamed-ki' ...
+[22:45:18.575][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716][518197] Skipping drawing with 0 lines in version 0
+[22:45:18.575][DG][MnlSmile][Debug] [DrawingSync][DAE0B61B06ABE716] All drawings are the same version as ours!
+[22:45:18.577][DG][MnlSmile][Debug] [DrawingSync][69692BFC963DD53C] Comparing our 94 drawing(s) against the 94 drawing(s) from '炸鸡大王ovo' ...
+[22:45:18.577][DG][MnlSmile][Debug] [DrawingSync][69692BFC963DD53C][518197] Skipping drawing with 0 lines in version 0
+[22:45:18.578][DG][MnlSmile][Debug] [DrawingSync][69692BFC963DD53C] All drawings are the same version as ours!
+[22:45:18.599][DG][MnlSmile][Debug] [DrawingSync][CEEC2A6F5918C1EF] Comparing our 94 drawing(s) against the 94 drawing(s) from '雨中的游戏者' ...
+[22:45:18.599][DG][MnlSmile][Debug] [DrawingSync][CEEC2A6F5918C1EF][518197] Skipping drawing with 0 lines in version 0
+[22:45:18.599][DG][MnlSmile][Debug] [DrawingSync][CEEC2A6F5918C1EF] All drawings are the same version as ours!
+[22:45:18.607][DG][MnlSmile][Debug] [DrawingSync][223A19FE8CBE91A8] Comparing our 94 drawing(s) against the 94 drawing(s) from '寿司又输了' ...
+[22:45:18.608][DG][MnlSmile][Debug] [DrawingSync][223A19FE8CBE91A8][518197] Skipping drawing with 0 lines in version 0
+[22:45:18.608][DG][MnlSmile][Debug] [DrawingSync][223A19FE8CBE91A8] All drawings are the same version as ours!
+[22:45:18.610][DG][MnlSmile][Debug] [DrawingSync][3998FCE37B95632C] Comparing our 94 drawing(s) against the 94 drawing(s) from 'White Samoye' ...
+[22:45:18.610][DG][MnlSmile][Debug] [DrawingSync][3998FCE37B95632C][518197] Skipping drawing with 0 lines in version 0
+[22:45:18.610][DG][MnlSmile][Debug] [DrawingSync][3998FCE37B95632C] All drawings are the same version as ours!
+[22:45:18.843][DG][MnlSmile][Debug] [DrawingSync][25B246F54716BC6] Comparing our 94 drawing(s) against the 94 drawing(s) from '小猫小猫翻跟斗' ...
+[22:45:18.843][DG][MnlSmile][Debug] [DrawingSync][25B246F54716BC6][518197] Skipping drawing with 0 lines in version 0
+[22:45:18.843][DG][MnlSmile][Debug] [DrawingSync][25B246F54716BC6] All drawings are the same version as ours!
+[22:45:18.845][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] Comparing our 94 drawing(s) against the 94 drawing(s) from 'Tkk17' ...
+[22:45:18.845][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3][518197] Skipping drawing with 0 lines in version 0
+[22:45:18.846][DG][MnlSmile][Debug] [DrawingSync][F16E2C661BFDA7C3] All drawings are the same version as ours!
+[22:45:18.942][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] Comparing our 94 drawing(s) against the 94 drawing(s) from '我爱昔涟' ...
+[22:45:18.942][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB][518197] Skipping drawing with 0 lines in version 0
+[22:45:18.943][DG][MnlSmile][Debug] [DrawingSync][E89EABFF8619CBEB] All drawings are the same version as ours!
+[22:45:18.945][DG][MnlSmile][Debug] [DrawingSync][D1A64D66C35BBBEC] Comparing our 94 drawing(s) against the 94 drawing(s) from '安戈上校' ...
+[22:45:18.945][DG][MnlSmile][Debug] [DrawingSync][D1A64D66C35BBBEC][518197] Skipping drawing with 0 lines in version 0
+[22:45:18.946][DG][MnlSmile][Debug] [DrawingSync][D1A64D66C35BBBEC] All drawings are the same version as ours!
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:45:44.567][DG][MnlSmile][Warn] Chain of player 9 is not ending on a guess, so we'll really make sure that we have one!
+[22:45:44.567][DG][MnlSmile][Warn] Chain of player 13 is not ending on a guess, so we'll really make sure that we have one!
+[22:45:44.567][DG][MnlSmile][Warn] Chain of player 2 is not ending on a guess, so we'll really make sure that we have one!
+[22:45:44.567][DG][MnlSmile][Debug] Round 1 Ended!
+[22:45:44.567][DG][MnlSmile][Debug] We have 15 more presentations to show. Continuing with the one from player 0 (E8C38E2FAF40AF83) which will take ~59.60001sec
+[ChainSummary] ChainStarterID[Idx]: 'E8C38E2FAF40AF83'[0], StartingWord: '传纸条', WasRandom: False, WasStreamer: False, AddtlGuesses: 7, VoteRequired: True, Votes: 
+[22:45:44.567][DG][MnlSmile][Debug] 
+[22:45:44.571][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Guessing' to 'RoundEnding.PresentAndVote.0'
+[22:45:44.708][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 7
+[22:45:44.733][DG][MnlSmile][Warn] [Turn 14] Received a guess from playerIdx '14', but we're in phase RoundEnding.PresentAndVote.0
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:46:47.666][DG][MnlSmile][Debug] We just received the word match vote result from players: True
+[22:46:50.660][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.0' to 'RoundEnding.Picking.0'
+[22:46:56.718][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Picking.0' to 'RoundEnding.Curated.0'
+[22:46:59.716][DG][MnlSmile][Debug] Marking previous chain from player 0 as DONE!
+[22:46:59.716][DG][MnlSmile][Debug] We have 14 more presentations to show. Continuing with the one from player 1 (E89EABFF8619CBEB) which will take ~48.10001sec
+[ChainSummary] ChainStarterID[Idx]: 'E89EABFF8619CBEB'[1], StartingWord: '西瓜皮', WasRandom: False, WasStreamer: False, AddtlGuesses: 7, VoteRequired: True, Votes: 
+[22:46:59.716][DG][MnlSmile][Debug] 
+[22:46:59.719][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Curated.0' to 'RoundEnding.PresentAndVote.1'
+[22:46:59.803][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 7
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:48:02.638][DG][MnlSmile][Debug] We just received the word match vote result from players: False
+[22:48:05.635][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.1' to 'RoundEnding.Picking.1'
+[22:48:15.736][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Picking.1' to 'RoundEnding.Curated.1'
+[22:48:18.737][DG][MnlSmile][Debug] Marking previous chain from player 1 as DONE!
+[22:48:18.738][DG][MnlSmile][Debug] We have 13 more presentations to show. Continuing with the one from player 2 (F16E2C661BFDA7C3) which will take ~23.85sec
+[ChainSummary] ChainStarterID[Idx]: 'F16E2C661BFDA7C3'[2], StartingWord: '烟灰缸', WasRandom: False, WasStreamer: False, AddtlGuesses: 4, VoteRequired: True, Votes: 
+[22:48:18.738][DG][MnlSmile][Debug] 
+[22:48:18.740][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Curated.1' to 'RoundEnding.PresentAndVote.2'
+[22:48:18.785][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 4
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:48:51.815][DG][MnlSmile][Debug] We just received the word match vote result from players: False
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:48:54.816][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.2' to 'RoundEnding.Picking.2'
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:49:05.091][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Picking.2' to 'RoundEnding.Curated.2'
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:49:08.072][DG][MnlSmile][Debug] Marking previous chain from player 2 as DONE!
+[22:49:08.072][DG][MnlSmile][Debug] We have 12 more presentations to show. Continuing with the one from player 3 (E0AFB4F84D171194) which will take ~45.15001sec
+[ChainSummary] ChainStarterID[Idx]: 'E0AFB4F84D171194'[3], StartingWord: '方便面', WasRandom: False, WasStreamer: False, AddtlGuesses: 7, VoteRequired: True, Votes: 
+[22:49:08.072][DG][MnlSmile][Debug] 
+[22:49:08.075][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Curated.2' to 'RoundEnding.PresentAndVote.3'
+[22:49:08.150][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 7
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:50:08.029][DG][MnlSmile][Debug] We just received the word match vote result from players: True
+[22:50:11.013][DG][MnlSmile][Debug] Marking previous chain from player 3 as DONE!
+[22:50:11.013][DG][MnlSmile][Debug] We have 11 more presentations to show. Continuing with the one from player 4 (92D3410C68874539) which will take ~41.15sec
+[ChainSummary] ChainStarterID[Idx]: '92D3410C68874539'[4], StartingWord: '明星', WasRandom: False, WasStreamer: False, AddtlGuesses: 7, VoteRequired: True, Votes: 
+[22:50:11.013][DG][MnlSmile][Debug] 
+[22:50:11.016][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.3' to 'RoundEnding.PresentAndVote.4'
+[22:50:11.082][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 7
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:51:06.551][DG][MnlSmile][Debug] We just received the word match vote result from players: True
+[22:51:09.538][DG][MnlSmile][Debug] Marking previous chain from player 4 as DONE!
+[22:51:09.538][DG][MnlSmile][Debug] We have 10 more presentations to show. Continuing with the one from player 5 (CEEC2A6F5918C1EF) which will take ~51.8sec
+[ChainSummary] ChainStarterID[Idx]: 'CEEC2A6F5918C1EF'[5], StartingWord: '跳跳僵尸', WasRandom: False, WasStreamer: False, AddtlGuesses: 7, VoteRequired: True, Votes: 
+[22:51:09.538][DG][MnlSmile][Debug] 
+[22:51:09.540][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.4' to 'RoundEnding.PresentAndVote.5'
+[22:51:09.613][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 7
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:52:11.544][DG][MnlSmile][Debug] We just received the word match vote result from players: False
+[22:52:14.539][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.5' to 'RoundEnding.Picking.5'
+[22:52:17.523][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Picking.5' to 'RoundEnding.Curated.5'
+[22:52:20.516][DG][MnlSmile][Debug] Marking previous chain from player 5 as DONE!
+[22:52:20.516][DG][MnlSmile][Debug] We have 9 more presentations to show. Continuing with the one from player 6 (1FDBBCF8CEB8698A) which will take ~47.5sec
+[ChainSummary] ChainStarterID[Idx]: '1FDBBCF8CEB8698A'[6], StartingWord: '季节', WasRandom: False, WasStreamer: False, AddtlGuesses: 7, VoteRequired: True, Votes: 
+[22:52:20.516][DG][MnlSmile][Debug] 
+[22:52:20.517][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Curated.5' to 'RoundEnding.PresentAndVote.6'
+[22:52:20.596][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 7
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:53:16.915][DG][MnlSmile][Debug] We just received the word match vote result from players: True
+[22:53:19.916][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.6' to 'RoundEnding.Picking.6'
+[22:53:21.614][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Picking.6' to 'RoundEnding.Curated.6'
+[22:53:24.611][DG][MnlSmile][Debug] Marking previous chain from player 6 as DONE!
+[22:53:24.611][DG][MnlSmile][Debug] We have 8 more presentations to show. Continuing with the one from player 7 (223A19FE8CBE91A8) which will take ~36.75sec
+[ChainSummary] ChainStarterID[Idx]: '223A19FE8CBE91A8'[7], StartingWord: '鼻子', WasRandom: False, WasStreamer: False, AddtlGuesses: 7, VoteRequired: True, Votes: 
+[22:53:24.611][DG][MnlSmile][Debug] 
+[22:53:24.613][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Curated.6' to 'RoundEnding.PresentAndVote.7'
+[22:53:24.689][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 7
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:54:20.626][DG][MnlSmile][Debug] Auto-accepting for the missing 1 players!
+[22:54:20.627][DG][MnlSmile][Debug] We just received the word match vote result from players: True
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:54:23.620][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.7' to 'RoundEnding.Picking.7'
+[22:54:28.869][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Picking.7' to 'RoundEnding.Curated.7'
+[22:54:31.853][DG][MnlSmile][Debug] Marking previous chain from player 7 as DONE!
+[22:54:31.853][DG][MnlSmile][Debug] We have 7 more presentations to show. Continuing with the one from player 8 (521DEC8145B148E6) which will take ~44.2sec
+[ChainSummary] ChainStarterID[Idx]: '521DEC8145B148E6'[8], StartingWord: '幽灵', WasRandom: False, WasStreamer: False, AddtlGuesses: 7, VoteRequired: True, Votes: 
+[22:54:31.853][DG][MnlSmile][Debug] 
+[22:54:31.856][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Curated.7' to 'RoundEnding.PresentAndVote.8'
+[22:54:31.918][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 7
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:55:31.516][DG][MnlSmile][Debug] We just received the word match vote result from players: False
+[22:55:34.520][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.8' to 'RoundEnding.Picking.8'
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:55:39.323][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Picking.8' to 'RoundEnding.Curated.8'
+[22:55:42.317][DG][MnlSmile][Debug] Marking previous chain from player 8 as DONE!
+[22:55:42.317][DG][MnlSmile][Debug] We have 6 more presentations to show. Continuing with the one from player 9 (69692BFC963DD53C) which will take ~15.5sec
+[ChainSummary] ChainStarterID[Idx]: '69692BFC963DD53C'[9], StartingWord: '外星人', WasRandom: False, WasStreamer: False, AddtlGuesses: 3, VoteRequired: True, Votes: 
+[22:55:42.317][DG][MnlSmile][Debug] 
+[22:55:42.318][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Curated.8' to 'RoundEnding.PresentAndVote.9'
+[22:55:42.354][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 3
+[22:56:06.292][DG][MnlSmile][Debug] We just received the word match vote result from players: True
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:56:09.282][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.9' to 'RoundEnding.Picking.9'
+[22:56:19.374][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Picking.9' to 'RoundEnding.Curated.9'
+[22:56:22.373][DG][MnlSmile][Debug] Marking previous chain from player 9 as DONE!
+[22:56:22.373][DG][MnlSmile][Debug] We have 5 more presentations to show. Continuing with the one from player 10 (3998FCE37B95632C) which will take ~44.6sec
+[ChainSummary] ChainStarterID[Idx]: '3998FCE37B95632C'[10], StartingWord: '蜡烛', WasRandom: False, WasStreamer: False, AddtlGuesses: 7, VoteRequired: True, Votes: 
+[22:56:22.373][DG][MnlSmile][Debug] 
+[22:56:22.375][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Curated.9' to 'RoundEnding.PresentAndVote.10'
+[22:56:22.445][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 7
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:57:19.502][DG][MnlSmile][Debug] We just received the word match vote result from players: False
+[22:57:22.499][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.10' to 'RoundEnding.Picking.10'
+[22:57:25.065][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Picking.10' to 'RoundEnding.Curated.10'
+[22:57:28.058][DG][MnlSmile][Debug] Marking previous chain from player 10 as DONE!
+[22:57:28.058][DG][MnlSmile][Debug] We have 4 more presentations to show. Continuing with the one from player 11 (D1A64D66C35BBBEC) which will take ~47.1sec
+[ChainSummary] ChainStarterID[Idx]: 'D1A64D66C35BBBEC'[11], StartingWord: '跆拳道', WasRandom: False, WasStreamer: False, AddtlGuesses: 7, VoteRequired: True, Votes: 
+[22:57:28.058][DG][MnlSmile][Debug] 
+[22:57:28.061][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Curated.10' to 'RoundEnding.PresentAndVote.11'
+[22:57:28.151][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 7
+[22:57:36.116][DG][MnlSmile][Warn] RoundManager: Player [HazelPresence Name: '杉杉水水流遍全身', Id: '1FDBBCF8CEB8698A', PresenceEventId:2, PlayerNumber: 20, IsMissing: True] disconnected
+[22:57:36.747][DG][MnlSmile][Warn] RoundManager: Player [HazelPresence Name: '杉杉水水流遍全身', Id: '1FDBBCF8CEB8698A', PresenceEventId:3, PlayerNumber: 38, IsMissing: False] reconnected
+[22:57:36.913][DG][MnlSmile][Debug] [DrawingSync][1FDBBCF8CEB8698A] Comparing our 94 drawing(s) against the 94 drawing(s) from '杉杉水水流遍全身' ...
+[22:57:36.913][DG][MnlSmile][Debug] [DrawingSync][1FDBBCF8CEB8698A][518197] Skipping drawing with 0 lines in version 0
+[22:57:36.914][DG][MnlSmile][Debug] [DrawingSync][1FDBBCF8CEB8698A] All drawings are the same version as ours!
+[22:57:38.213][DG][MnlSmile][Debug] [1FDBBCF8CEB8698A] Trying to reintegrate player during phase 'RoundEnding.PresentAndVote.11'
+[22:57:38.213][DG][MnlSmile][Debug] not waiting for any more players => resume game
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:58:25.828][DG][MnlSmile][Debug] We just received the word match vote result from players: False
+[22:58:28.816][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.11' to 'RoundEnding.Picking.11'
+[22:58:30.601][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Picking.11' to 'RoundEnding.Curated.11'
+[22:58:33.596][DG][MnlSmile][Debug] Marking previous chain from player 11 as DONE!
+[22:58:33.597][DG][MnlSmile][Debug] We have 3 more presentations to show. Continuing with the one from player 12 (D32A69EC52FE7BC8) which will take ~47.05sec
+[ChainSummary] ChainStarterID[Idx]: 'D32A69EC52FE7BC8'[12], StartingWord: '温度', WasRandom: False, WasStreamer: False, AddtlGuesses: 7, VoteRequired: True, Votes: 
+[22:58:33.597][DG][MnlSmile][Debug] 
+[22:58:33.600][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Curated.11' to 'RoundEnding.PresentAndVote.12'
+[22:58:33.705][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 7
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:59:35.061][DG][MnlSmile][Debug] We just received the word match vote result from players: True
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[22:59:38.054][DG][MnlSmile][Debug] Marking previous chain from player 12 as DONE!
+[22:59:38.054][DG][MnlSmile][Debug] We have 2 more presentations to show. Continuing with the one from player 13 (DAE0B61B06ABE716) which will take ~24.4sec
+[ChainSummary] ChainStarterID[Idx]: 'DAE0B61B06ABE716'[13], StartingWord: '试卷', WasRandom: False, WasStreamer: False, AddtlGuesses: 3, VoteRequired: True, Votes: 
+[22:59:38.054][DG][MnlSmile][Debug] 
+[22:59:38.055][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.12' to 'RoundEnding.PresentAndVote.13'
+[22:59:38.101][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 3
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[23:00:04.774][DG][MnlSmile][Debug] We just received the word match vote result from players: False
+[23:00:07.776][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.13' to 'RoundEnding.Picking.13'
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[23:00:17.865][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Picking.13' to 'RoundEnding.Curated.13'
+[23:00:20.852][DG][MnlSmile][Debug] Marking previous chain from player 13 as DONE!
+[23:00:20.852][DG][MnlSmile][Debug] We have 1 more presentations to show. Continuing with the one from player 14 (25B246F54716BC6) which will take ~43.5sec
+[ChainSummary] ChainStarterID[Idx]: '25B246F54716BC6'[14], StartingWord: '森林冰火人', WasRandom: False, WasStreamer: False, AddtlGuesses: 7, VoteRequired: True, Votes: 
+[23:00:20.852][DG][MnlSmile][Debug] 
+[23:00:20.854][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Curated.13' to 'RoundEnding.PresentAndVote.14'
+[23:00:20.926][DG][MnlSmile][Debug] We're starting presentation with segmentIdx 1 / 7
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[23:01:23.411][DG][MnlSmile][Debug] We just received the word match vote result from players: False
+[23:01:23.989][DG][MnlSmile][Debug] Auto-accepting for the missing 0 players!
+[23:01:26.421][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.PresentAndVote.14' to 'RoundEnding.Picking.14'
+[23:01:29.498][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Picking.14' to 'RoundEnding.Curated.14'
+[23:01:32.493][DG][MnlSmile][Debug] Marking previous chain from player 14 as DONE!
+[23:01:32.493][DG][MnlSmile][Debug] We don't have any chains left to present. Trying to start next major round!
+[23:01:32.500][DG][MnlSmile][Debug] [Round 1] Transitioning from 'RoundEnding.Curated.14' to 'MatchEnding'
+[23:01:34.659][DG][MnlSmile][Debug] Clearing temporary data ...
+Unloading 1 Unused Serialized files (Serialized files now loaded: 54)
+UnloadTime: 59.138800 ms
+[23:01:34.967][DG][MnlSmile][Debug] Host Promotion '' -> 'E8C38E2FAF40AF83' ==> are we host now? True
+[23:01:34.967][DG][MnlSmile][Debug] Going to lobby
+[23:01:35.010][DG][MnlSmile][Debug] Clearing temporary data ...
+[23:01:35.011][DG][MnlSmile][Debug] Avatar Unlocks:
+[Mei]		Games Played locally: '9'	Not synced to server
+[Zoey]		Games Played locally: '0'	Not synced to server
+[Wanderer]	Games Played locally: '0'	Not synced to server
+[AL4N]		Games Played locally: '0'	Not synced to server
+Unloading 1019 unused Assets to reduce memory usage. Loaded Objects now: 40712.
+Total: 139.628000 ms (FindLiveObjects: 5.656100 ms CreateObjectMapping: 4.103600 ms MarkObjects: 128.069200 ms  DeleteObjects: 1.798800 ms)
+
+[23:01:36.709][DG][MnlSmile][Debug] Player '1FDBBCF8CEB8698A' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[23:01:36.715][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: '杉杉水水流遍全身', Id: '1FDBBCF8CEB8698A', PresenceEventId:4, PlayerNumber: 38, IsMissing: True]
+[23:01:38.511][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: '齐天鸿运蛊', Id: '1599F9637A0CDC3B', PresenceEventId:1, PlayerNumber: 39, IsMissing: False]
+[23:01:38.511][DG][MnlSmile][Debug] Added player to our user list => 12 / 16
+[23:01:40.086][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: 'mahiro0', Id: 'E62ADC48B7672386', PresenceEventId:1, PlayerNumber: 40, IsMissing: False]
+[23:01:40.087][DG][MnlSmile][Debug] Added player to our user list => 13 / 16
+[23:01:41.430][DG][MnlSmile][Debug] Player 'F16E2C661BFDA7C3' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[23:01:41.434][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: 'Tkk17', Id: 'F16E2C661BFDA7C3', PresenceEventId:2, PlayerNumber: 7, IsMissing: True]
+[23:01:44.613][DG][MnlSmile][Debug] Player '3998FCE37B95632C' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[23:01:44.617][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: 'White Samoye', Id: '3998FCE37B95632C', PresenceEventId:2, PlayerNumber: 24, IsMissing: True]
+[23:01:49.321][DG][MnlSmile][Debug] Player '25B246F54716BC6' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[23:01:49.328][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: '小猫小猫翻跟斗', Id: '25B246F54716BC6', PresenceEventId:4, PlayerNumber: 35, IsMissing: True]
+[23:01:50.148][DG][MnlSmile][Debug] Player 'E89EABFF8619CBEB' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[23:01:50.153][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: '我爱昔涟', Id: 'E89EABFF8619CBEB', PresenceEventId:2, PlayerNumber: 2, IsMissing: True]
+[23:01:50.180][DG][MnlSmile][Debug] Player 'DAE0B61B06ABE716' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[23:01:50.184][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: 'Flamed-ki', Id: 'DAE0B61B06ABE716', PresenceEventId:4, PlayerNumber: 28, IsMissing: True]
+[23:01:51.553][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: '咕噜蛋', Id: '14D8141BB11DED40', PresenceEventId:1, PlayerNumber: 41, IsMissing: False]
+[23:01:51.553][DG][MnlSmile][Debug] Added player to our user list => 9 / 16
+[23:01:51.667][DG][MnlSmile][Debug] Player '14D8141BB11DED40' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[23:01:51.671][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: '咕噜蛋', Id: '14D8141BB11DED40', PresenceEventId:2, PlayerNumber: 41, IsMissing: True]
+[23:01:53.593][DG][MnlSmile][Debug] Player 'E62ADC48B7672386' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[23:01:53.599][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: 'mahiro0', Id: 'E62ADC48B7672386', PresenceEventId:2, PlayerNumber: 40, IsMissing: True]
+[23:01:56.319][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: 'mahiro0', Id: 'E62ADC48B7672386', PresenceEventId:3, PlayerNumber: 42, IsMissing: False]
+[23:01:56.319][DG][MnlSmile][Debug] Added player to our user list => 8 / 16
+[23:01:58.122][DG][MnlSmile][Debug] Player 'E62ADC48B7672386' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[23:01:58.127][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: 'mahiro0', Id: 'E62ADC48B7672386', PresenceEventId:4, PlayerNumber: 42, IsMissing: True]
+[23:01:58.163][DG][MnlSmile][Debug] Player 'CEEC2A6F5918C1EF' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[23:01:58.168][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: '雨中的游戏者', Id: 'CEEC2A6F5918C1EF', PresenceEventId:2, PlayerNumber: 19, IsMissing: True]
+[23:02:01.173][DG][MnlSmile][Debug] Player '69692BFC963DD53C' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[23:02:01.177][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: '炸鸡大王ovo', Id: '69692BFC963DD53C', PresenceEventId:2, PlayerNumber: 23, IsMissing: True]
+[23:02:01.803][DG][MnlSmile][Debug] Player '1599F9637A0CDC3B' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[23:02:01.807][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: '齐天鸿运蛊', Id: '1599F9637A0CDC3B', PresenceEventId:2, PlayerNumber: 39, IsMissing: True]
+[23:02:02.233][DG][MnlSmile][Debug] Player '223A19FE8CBE91A8' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[23:02:02.237][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: '寿司又输了', Id: '223A19FE8CBE91A8', PresenceEventId:2, PlayerNumber: 21, IsMissing: True]
+[23:02:02.638][DG][MnlSmile][Debug] Got notified about new player: [HazelPresence Name: '十三幺ne', Id: 'A7E5E47903BE784', PresenceEventId:1, PlayerNumber: 43, IsMissing: False]
+[23:02:02.638][DG][MnlSmile][Debug] Added player to our user list => 4 / 16
+[23:02:04.132][DG][MnlSmile][Debug] Player '521DEC8145B148E6' left the lobby, removing their drawing sync tasks now (we have 0 tasks left in the list)
+[23:02:04.135][DG][MnlSmile][Debug] Got notified player leaving: [HazelPresence Name: 'TIETI', Id: '521DEC8145B148E6', PresenceEventId:2, PlayerNumber: 22, IsMissing: True]
+[23:02:05.081][DG][MnlSmile][Debug] [Connection] Trying to send a disconnect message to server with reason: 'UserCancelled'. Stacktrace:
+		at HazelConnectionHandler.DisconnectManually (DCReason reason) in <6d1a2de6e5474ce9b5b74b1c8365265d>:0
+		at HazelGameConnection.DisconnectManually (DCReason reason) in <6d1a2de6e5474ce9b5b74b1c8365265d>:0
+		at HazelMatch.TryLeaveNetwork (DCReason reason) in <6d1a2de6e5474ce9b5b74b1c8365265d>:0
+		at LobbyManager+<>c.<ClickDisconnect>b__59_0 () in <6d1a2de6e5474ce9b5b74b1c8365265d>:0
+		at PromptCancelOkayBox.OkClick () in <6d1a2de6e5474ce9b5b74b1c8365265d>:0
+[23:02:05.081][DG][MnlSmile][Warn] [Connection] Handling disconnect message: UserCancelled (DCReason: UserCancelled)
+[23:02:05.082][DG][MnlSmile][Debug] ** LEAVING PARTY for reason: 'UserCancelled' | GoBackToMenu: True **
+[23:02:05.082][DG][MnlSmile][Debug] Clearing temporary data ...
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Unloading 1 Unused Serialized files (Serialized files now loaded: 54)
+UnloadTime: 14.928300 ms
+[23:02:05.163][DG][MnlSmile][Debug] Checking Version compat with lobby service...
+[23:02:05.163][DG][MnlSmile][Debug] Trying to request version from http://8.218.91.138:5555/version
+[23:02:05.206][DG][MnlSmile][Debug] Checking for new gifts ...
+[23:02:05.208][DG][MnlSmile][Debug] Going to mainmenu
+[23:02:05.208][DG][MnlSmile][Debug] Version check still in progress ...
+[23:02:05.219][DG][MnlSmile][Debug] Got Version '2.93' from lobby service after 0.056 seconds. Client version is: '2.96'
+[23:02:05.219][DG][MnlSmile][Debug] Getting relay host to use ...
+[23:02:05.219][DG][MnlSmile][Debug] Configuring preferred Relay [RelayServer Name:appServeHazel2, Region: ASIA, IP:47.243.118.212, PortMin:27000, PortMax:27100, UseRate:1]
+[23:02:05.219][DG][MnlSmile][Debug] We're connected and have at least the min version. Ready to play!
+Unloading 192 unused Assets to reduce memory usage. Loaded Objects now: 29342.
+Total: 125.103900 ms (FindLiveObjects: 1.932100 ms CreateObjectMapping: 2.240300 ms MarkObjects: 120.389800 ms  DeleteObjects: 0.541200 ms)
+
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Unloading 2 Unused Serialized files (Serialized files now loaded: 54)
+UnloadTime: 6.264200 ms
+[23:02:14.687][DG][MnlSmile][Debug] Going to sketchbook
+Unloading 444 unused Assets to reduce memory usage. Loaded Objects now: 32556.
+Total: 124.061000 ms (FindLiveObjects: 1.828500 ms CreateObjectMapping: 2.079400 ms MarkObjects: 119.696500 ms  DeleteObjects: 0.456300 ms)
+
+Unable to fade out: Object is already disabled.
+Unable to fade out: Object is already disabled.
+Unable to fade out: Object is already disabled.
+All frames cleared
+Frame 1 captured successfully
+Frame 2 captured successfully
+Frame 3 captured successfully
+Frame 4 captured successfully
+Frame 5 captured successfully
+Frame 6 captured successfully
+Frame 7 captured successfully
+Frame 8 captured successfully
+Frame 9 captured successfully
+Frame 10 captured successfully
+Frame 11 captured successfully
+Frame 12 captured successfully
+Frame 13 captured successfully
+Frame 14 captured successfully
+Frame 15 captured successfully
+Starting to save GIF with 15 frames...
+Preparing frames: 0%
+Preparing frames: 7%
+Preparing frames: 14%
+Preparing frames: 20%
+Preparing frames: 27%
+Preparing frames: 34%
+Preparing frames: 40%
+Preparing frames: 47%
+Preparing frames: 54%
+Preparing frames: 61%
+Preparing frames: 67%
+Preparing frames: 74%
+Preparing frames: 80%
+Preparing frames: 87%
+Preparing frames: 94%
+Added duplicate of last frame to increase its duration
+Pre-processing done
+Creating GIF: 7%
+Creating GIF: 13%
+Creating GIF: 19%
+Creating GIF: 38%
+Creating GIF: 44%
+Creating GIF: 50%
+Creating GIF: 57%
+Creating GIF: 75%
+Creating GIF: 82%
+Creating GIF: 88%
+Creating GIF: 94%
+GIF created successfully!
+GIF saved to path: C:\Users\Dell\Pictures\Draw&Guess\Draw&Guess - 接龙 - 20250723_2222 - MnlSmile (1).gif
+[23:02:32.540][DG][MnlSmile][Warn] Tried to export PNG without any lines! We're not doing that.
+Unable to fade out: Object is already disabled.
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Unable to fade out: Object is already disabled.
+[23:03:20.826][DG][MnlSmile][Error] Unable to find SBSketchesTab
+0x00007fff4855f9ac (UnityPlayer) UnityMain
+0x00007fff4855f736 (UnityPlayer) UnityMain
+0x00007fff4835aa38 (UnityPlayer) UnityMain
+0x00007fff4855a12e (UnityPlayer) UnityMain
+0x00007fff48d037c1 (UnityPlayer) UnityMain
+0x00007fff47be90fe (UnityPlayer) 
+0x0000019d6bae181d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x0000019d6bae16d3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000019d6bae10db (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000019d6bae0e20 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000019db744dc45 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x0000019db744dbf3 (Mono JIT Code) LogHelper:Error (string,UnityEngine.Object)
+0x0000019db744db4b (Mono JIT Code) SketchbookEntry:Select ()
+0x0000019e4b6c70b9 (Mono JIT Code) UnityEngine.Events.InvokableCall:Invoke ()
+0x0000019e4b6c6dab (Mono JIT Code) UnityEngine.Events.UnityEvent:Invoke ()
+0x0000019e4b6c6803 (Mono JIT Code) UnityEngine.UI.Button:Press ()
+0x0000019e4b6c6743 (Mono JIT Code) UnityEngine.UI.Button:OnPointerClick (UnityEngine.EventSystems.PointerEventData)
+0x0000019e4b6c66e9 (Mono JIT Code) UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.BaseEventData)
+0x0000019dbf1df222 (Mono JIT Code) UnityEngine.EventSystems.ExecuteEvents:Execute<T_REF> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<T_REF>)
+0x0000019dbc31a673 (Mono JIT Code) UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData)
+0x0000019dbc312c43 (Mono JIT Code) UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&)
+0x0000019db65ff6eb (Mono JIT Code) UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process ()
+0x0000019db1a035f7 (Mono JIT Code) UnityEngine.EventSystems.EventSystem:Update ()
+0x0000019daf636668 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007fff473b68de (mono-2.0-bdwgc) mono_jit_set_domain
+0x00007fff472f8404 (mono-2.0-bdwgc) mono_object_get_virtual_method
+0x00007fff472f84f0 (mono-2.0-bdwgc) mono_runtime_invoke
+0x00007fff4809de1f (UnityPlayer) 
+0x00007fff482b9d9a (UnityPlayer) 
+0x00007fff482b9e5b (UnityPlayer) 
+0x00007fff47f38a84 (UnityPlayer) 
+0x00007fff480d978d (UnityPlayer) 
+0x00007fff480d995a (UnityPlayer) 
+0x00007fff480d9dce (UnityPlayer) 
+0x00007fff4835062e (UnityPlayer) 
+0x00007fff48352efb (UnityPlayer) 
+0x00007fff48355ffc (UnityPlayer) 
+0x00007fff483561fb (UnityPlayer) UnityMain
+0x00007ff72c7a11f2 (Draw&Guess) 
+0x00007ff8480ce8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff84885c34c (ntdll) RtlUserThreadStart
+
+Unable to fade out: Object is already disabled.
+Unable to fade out: Object is already disabled.
+Unable to fade out: Object is already disabled.
+[23:03:53.064][DG][MnlSmile][Error] Unable to find SBSketchesTab
+0x00007fff4855f9ac (UnityPlayer) UnityMain
+0x00007fff4855f736 (UnityPlayer) UnityMain
+0x00007fff4835aa38 (UnityPlayer) UnityMain
+0x00007fff4855a12e (UnityPlayer) UnityMain
+0x00007fff48d037c1 (UnityPlayer) UnityMain
+0x00007fff47be90fe (UnityPlayer) 
+0x0000019d6bae181d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x0000019d6bae16d3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000019d6bae10db (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000019d6bae0e20 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000019db744dc45 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x0000019db744dbf3 (Mono JIT Code) LogHelper:Error (string,UnityEngine.Object)
+0x0000019db744db4b (Mono JIT Code) SketchbookEntry:Select ()
+0x0000019e4b6c70b9 (Mono JIT Code) UnityEngine.Events.InvokableCall:Invoke ()
+0x0000019e4b6c6dab (Mono JIT Code) UnityEngine.Events.UnityEvent:Invoke ()
+0x0000019e4b6c6803 (Mono JIT Code) UnityEngine.UI.Button:Press ()
+0x0000019e4b6c6743 (Mono JIT Code) UnityEngine.UI.Button:OnPointerClick (UnityEngine.EventSystems.PointerEventData)
+0x0000019e4b6c66e9 (Mono JIT Code) UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.BaseEventData)
+0x0000019dbf1df222 (Mono JIT Code) UnityEngine.EventSystems.ExecuteEvents:Execute<T_REF> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<T_REF>)
+0x0000019dbc31a673 (Mono JIT Code) UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData)
+0x0000019dbc312c43 (Mono JIT Code) UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&)
+0x0000019db65ff6eb (Mono JIT Code) UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process ()
+0x0000019db1a035f7 (Mono JIT Code) UnityEngine.EventSystems.EventSystem:Update ()
+0x0000019daf636668 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007fff473b68de (mono-2.0-bdwgc) mono_jit_set_domain
+0x00007fff472f8404 (mono-2.0-bdwgc) mono_object_get_virtual_method
+0x00007fff472f84f0 (mono-2.0-bdwgc) mono_runtime_invoke
+0x00007fff4809de1f (UnityPlayer) 
+0x00007fff482b9d9a (UnityPlayer) 
+0x00007fff482b9e5b (UnityPlayer) 
+0x00007fff47f38a84 (UnityPlayer) 
+0x00007fff480d978d (UnityPlayer) 
+0x00007fff480d995a (UnityPlayer) 
+0x00007fff480d9dce (UnityPlayer) 
+0x00007fff4835062e (UnityPlayer) 
+0x00007fff48352efb (UnityPlayer) 
+0x00007fff48355ffc (UnityPlayer) 
+0x00007fff483561fb (UnityPlayer) UnityMain
+0x00007ff72c7a11f2 (Draw&Guess) 
+0x00007ff8480ce8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff84885c34c (ntdll) RtlUserThreadStart
+
+[23:03:53.537][DG][MnlSmile][Error] Unable to find SBSketchesTab
+0x00007fff4855f9ac (UnityPlayer) UnityMain
+0x00007fff4855f736 (UnityPlayer) UnityMain
+0x00007fff4835aa38 (UnityPlayer) UnityMain
+0x00007fff4855a12e (UnityPlayer) UnityMain
+0x00007fff48d037c1 (UnityPlayer) UnityMain
+0x00007fff47be90fe (UnityPlayer) 
+0x0000019d6bae181d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x0000019d6bae16d3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000019d6bae10db (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000019d6bae0e20 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000019db744dc45 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x0000019db744dbf3 (Mono JIT Code) LogHelper:Error (string,UnityEngine.Object)
+0x0000019db744db4b (Mono JIT Code) SketchbookEntry:Select ()
+0x0000019e4b6c70b9 (Mono JIT Code) UnityEngine.Events.InvokableCall:Invoke ()
+0x0000019e4b6c6dab (Mono JIT Code) UnityEngine.Events.UnityEvent:Invoke ()
+0x0000019e4b6c6803 (Mono JIT Code) UnityEngine.UI.Button:Press ()
+0x0000019e4b6c6743 (Mono JIT Code) UnityEngine.UI.Button:OnPointerClick (UnityEngine.EventSystems.PointerEventData)
+0x0000019e4b6c66e9 (Mono JIT Code) UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.BaseEventData)
+0x0000019dbf1df222 (Mono JIT Code) UnityEngine.EventSystems.ExecuteEvents:Execute<T_REF> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<T_REF>)
+0x0000019dbc31a673 (Mono JIT Code) UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData)
+0x0000019dbc312c43 (Mono JIT Code) UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&)
+0x0000019db65ff6eb (Mono JIT Code) UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process ()
+0x0000019db1a035f7 (Mono JIT Code) UnityEngine.EventSystems.EventSystem:Update ()
+0x0000019daf636668 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007fff473b68de (mono-2.0-bdwgc) mono_jit_set_domain
+0x00007fff472f8404 (mono-2.0-bdwgc) mono_object_get_virtual_method
+0x00007fff472f84f0 (mono-2.0-bdwgc) mono_runtime_invoke
+0x00007fff4809de1f (UnityPlayer) 
+0x00007fff482b9d9a (UnityPlayer) 
+0x00007fff482b9e5b (UnityPlayer) 
+0x00007fff47f38a84 (UnityPlayer) 
+0x00007fff480d978d (UnityPlayer) 
+0x00007fff480d995a (UnityPlayer) 
+0x00007fff480d9dce (UnityPlayer) 
+0x00007fff4835062e (UnityPlayer) 
+0x00007fff48352efb (UnityPlayer) 
+0x00007fff48355ffc (UnityPlayer) 
+0x00007fff483561fb (UnityPlayer) UnityMain
+0x00007ff72c7a11f2 (Draw&Guess) 
+0x00007ff8480ce8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff84885c34c (ntdll) RtlUserThreadStart
+
+[23:03:53.795][DG][MnlSmile][Error] Unable to find SBSketchesTab
+0x00007fff4855f9ac (UnityPlayer) UnityMain
+0x00007fff4855f736 (UnityPlayer) UnityMain
+0x00007fff4835aa38 (UnityPlayer) UnityMain
+0x00007fff4855a12e (UnityPlayer) UnityMain
+0x00007fff48d037c1 (UnityPlayer) UnityMain
+0x00007fff47be90fe (UnityPlayer) 
+0x0000019d6bae181d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x0000019d6bae16d3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000019d6bae10db (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000019d6bae0e20 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000019db744dc45 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x0000019db744dbf3 (Mono JIT Code) LogHelper:Error (string,UnityEngine.Object)
+0x0000019db744db4b (Mono JIT Code) SketchbookEntry:Select ()
+0x0000019e4b6c70b9 (Mono JIT Code) UnityEngine.Events.InvokableCall:Invoke ()
+0x0000019e4b6c6dab (Mono JIT Code) UnityEngine.Events.UnityEvent:Invoke ()
+0x0000019e4b6c6803 (Mono JIT Code) UnityEngine.UI.Button:Press ()
+0x0000019e4b6c6743 (Mono JIT Code) UnityEngine.UI.Button:OnPointerClick (UnityEngine.EventSystems.PointerEventData)
+0x0000019e4b6c66e9 (Mono JIT Code) UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.BaseEventData)
+0x0000019dbf1df222 (Mono JIT Code) UnityEngine.EventSystems.ExecuteEvents:Execute<T_REF> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<T_REF>)
+0x0000019dbc31a673 (Mono JIT Code) UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData)
+0x0000019dbc312c43 (Mono JIT Code) UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&)
+0x0000019db65ff6eb (Mono JIT Code) UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process ()
+0x0000019db1a035f7 (Mono JIT Code) UnityEngine.EventSystems.EventSystem:Update ()
+0x0000019daf636668 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007fff473b68de (mono-2.0-bdwgc) mono_jit_set_domain
+0x00007fff472f8404 (mono-2.0-bdwgc) mono_object_get_virtual_method
+0x00007fff472f84f0 (mono-2.0-bdwgc) mono_runtime_invoke
+0x00007fff4809de1f (UnityPlayer) 
+0x00007fff482b9d9a (UnityPlayer) 
+0x00007fff482b9e5b (UnityPlayer) 
+0x00007fff47f38a84 (UnityPlayer) 
+0x00007fff480d978d (UnityPlayer) 
+0x00007fff480d995a (UnityPlayer) 
+0x00007fff480d9dce (UnityPlayer) 
+0x00007fff4835062e (UnityPlayer) 
+0x00007fff48352efb (UnityPlayer) 
+0x00007fff48355ffc (UnityPlayer) 
+0x00007fff483561fb (UnityPlayer) UnityMain
+0x00007ff72c7a11f2 (Draw&Guess) 
+0x00007ff8480ce8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff84885c34c (ntdll) RtlUserThreadStart
+
+[23:03:53.990][DG][MnlSmile][Error] Unable to find SBSketchesTab
+0x00007fff4855f9ac (UnityPlayer) UnityMain
+0x00007fff4855f736 (UnityPlayer) UnityMain
+0x00007fff4835aa38 (UnityPlayer) UnityMain
+0x00007fff4855a12e (UnityPlayer) UnityMain
+0x00007fff48d037c1 (UnityPlayer) UnityMain
+0x00007fff47be90fe (UnityPlayer) 
+0x0000019d6bae181d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x0000019d6bae16d3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000019d6bae10db (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000019d6bae0e20 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000019db744dc45 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x0000019db744dbf3 (Mono JIT Code) LogHelper:Error (string,UnityEngine.Object)
+0x0000019db744db4b (Mono JIT Code) SketchbookEntry:Select ()
+0x0000019e4b6c70b9 (Mono JIT Code) UnityEngine.Events.InvokableCall:Invoke ()
+0x0000019e4b6c6dab (Mono JIT Code) UnityEngine.Events.UnityEvent:Invoke ()
+0x0000019e4b6c6803 (Mono JIT Code) UnityEngine.UI.Button:Press ()
+0x0000019e4b6c6743 (Mono JIT Code) UnityEngine.UI.Button:OnPointerClick (UnityEngine.EventSystems.PointerEventData)
+0x0000019e4b6c66e9 (Mono JIT Code) UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.BaseEventData)
+0x0000019dbf1df222 (Mono JIT Code) UnityEngine.EventSystems.ExecuteEvents:Execute<T_REF> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<T_REF>)
+0x0000019dbc31a673 (Mono JIT Code) UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData)
+0x0000019dbc312c43 (Mono JIT Code) UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&)
+0x0000019db65ff6eb (Mono JIT Code) UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process ()
+0x0000019db1a035f7 (Mono JIT Code) UnityEngine.EventSystems.EventSystem:Update ()
+0x0000019daf636668 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007fff473b68de (mono-2.0-bdwgc) mono_jit_set_domain
+0x00007fff472f8404 (mono-2.0-bdwgc) mono_object_get_virtual_method
+0x00007fff472f84f0 (mono-2.0-bdwgc) mono_runtime_invoke
+0x00007fff4809de1f (UnityPlayer) 
+0x00007fff482b9d9a (UnityPlayer) 
+0x00007fff482b9e5b (UnityPlayer) 
+0x00007fff47f38a84 (UnityPlayer) 
+0x00007fff480d978d (UnityPlayer) 
+0x00007fff480d995a (UnityPlayer) 
+0x00007fff480d9dce (UnityPlayer) 
+0x00007fff4835062e (UnityPlayer) 
+0x00007fff48352efb (UnityPlayer) 
+0x00007fff48355ffc (UnityPlayer) 
+0x00007fff483561fb (UnityPlayer) UnityMain
+0x00007ff72c7a11f2 (Draw&Guess) 
+0x00007ff8480ce8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff84885c34c (ntdll) RtlUserThreadStart
+
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Unable to fade out: Object is already disabled.
+All frames cleared
+Frame 1 captured successfully
+Frame 2 captured successfully
+Frame 3 captured successfully
+Frame 4 captured successfully
+Frame 5 captured successfully
+Frame 6 captured successfully
+Frame 7 captured successfully
+Frame 8 captured successfully
+Frame 9 captured successfully
+Frame 10 captured successfully
+Frame 11 captured successfully
+Frame 12 captured successfully
+Frame 13 captured successfully
+Frame 14 captured successfully
+Frame 15 captured successfully
+Starting to save GIF with 15 frames...
+Preparing frames: 0%
+Preparing frames: 7%
+Preparing frames: 14%
+Preparing frames: 20%
+Preparing frames: 27%
+Preparing frames: 34%
+Preparing frames: 40%
+Preparing frames: 47%
+Preparing frames: 54%
+Preparing frames: 61%
+Preparing frames: 67%
+Preparing frames: 74%
+Preparing frames: 80%
+Preparing frames: 87%
+Preparing frames: 94%
+Added duplicate of last frame to increase its duration
+Pre-processing done
+Creating GIF: 13%
+Creating GIF: 19%
+Creating GIF: 25%
+Creating GIF: 32%
+Creating GIF: 38%
+Creating GIF: 44%
+Creating GIF: 50%
+Creating GIF: 57%
+Creating GIF: 63%
+Creating GIF: 69%
+Creating GIF: 75%
+Creating GIF: 82%
+Creating GIF: 88%
+Creating GIF: 94%
+GIF created successfully!
+GIF saved to path: C:\Users\Dell\Pictures\Draw&Guess\Draw&Guess - 接龙 - 20250723_2222 - White Samoye (1).gif
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+[23:07:35.021][DG][MnlSmile][Error] Unable to find SBSketchesTab
+0x00007fff4855f9ac (UnityPlayer) UnityMain
+0x00007fff4855f736 (UnityPlayer) UnityMain
+0x00007fff4835aa38 (UnityPlayer) UnityMain
+0x00007fff4855a12e (UnityPlayer) UnityMain
+0x00007fff48d037c1 (UnityPlayer) UnityMain
+0x00007fff47be90fe (UnityPlayer) 
+0x0000019d6bae181d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x0000019d6bae16d3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000019d6bae10db (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000019d6bae0e20 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000019db744dc45 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x0000019db744dbf3 (Mono JIT Code) LogHelper:Error (string,UnityEngine.Object)
+0x0000019db744db4b (Mono JIT Code) SketchbookEntry:Select ()
+0x0000019e4b6c70b9 (Mono JIT Code) UnityEngine.Events.InvokableCall:Invoke ()
+0x0000019e4b6c6dab (Mono JIT Code) UnityEngine.Events.UnityEvent:Invoke ()
+0x0000019e4b6c6803 (Mono JIT Code) UnityEngine.UI.Button:Press ()
+0x0000019e4b6c6743 (Mono JIT Code) UnityEngine.UI.Button:OnPointerClick (UnityEngine.EventSystems.PointerEventData)
+0x0000019e4b6c66e9 (Mono JIT Code) UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.BaseEventData)
+0x0000019dbf1df222 (Mono JIT Code) UnityEngine.EventSystems.ExecuteEvents:Execute<T_REF> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<T_REF>)
+0x0000019dbc31a673 (Mono JIT Code) UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData)
+0x0000019dbc312c43 (Mono JIT Code) UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&)
+0x0000019db65ff6eb (Mono JIT Code) UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process ()
+0x0000019db1a035f7 (Mono JIT Code) UnityEngine.EventSystems.EventSystem:Update ()
+0x0000019daf636668 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007fff473b68de (mono-2.0-bdwgc) mono_jit_set_domain
+0x00007fff472f8404 (mono-2.0-bdwgc) mono_object_get_virtual_method
+0x00007fff472f84f0 (mono-2.0-bdwgc) mono_runtime_invoke
+0x00007fff4809de1f (UnityPlayer) 
+0x00007fff482b9d9a (UnityPlayer) 
+0x00007fff482b9e5b (UnityPlayer) 
+0x00007fff47f38a84 (UnityPlayer) 
+0x00007fff480d978d (UnityPlayer) 
+0x00007fff480d995a (UnityPlayer) 
+0x00007fff480d9dce (UnityPlayer) 
+0x00007fff4835062e (UnityPlayer) 
+0x00007fff48352efb (UnityPlayer) 
+0x00007fff48355ffc (UnityPlayer) 
+0x00007fff483561fb (UnityPlayer) UnityMain
+0x00007ff72c7a11f2 (Draw&Guess) 
+0x00007ff8480ce8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff84885c34c (ntdll) RtlUserThreadStart
+
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Unable to fade out: Object is already disabled.
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Unable to fade out: Object is already disabled.
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Ping: Error performing ICMP transmission. Possibly because of a timeout
+Unable to fade out: Object is already disabled.
+Ping: Error performing ICMP transmission. Possibly because of a timeout

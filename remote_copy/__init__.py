@@ -2,6 +2,12 @@ from PhiLia093.h import *
 
 global_timers = []
 
+DEFAULT_TIP = 'xxxxxxxxxxxx\n人家可以帮你输哦?'
+ANGRY_1_TIP = '不要扯人家! \n会痛的哦?'
+RECOVER_FROM_ANGER_TIP = 'xxxxxxxxxxx, 快输呀!\n人家舍不得记你的仇呢'
+
+LOG_PATH = os.getenv('APPDATA') + '/../LocalLow/Acureus/Draw_Guess/Player.log'
+
 def restore_and_activate_window(hwnd):
     SW_RESTORE = 9
     windll.user32.ShowWindow(hwnd, SW_RESTORE)
@@ -27,11 +33,11 @@ class RemoteCopyClient(QWebSocket):
     def cuslot_on_text_message_received(self, msg:str) -> None:
         if self.window.is_angry_resize:
             self.window.o_btn.show()
-            self.window.o_tip.setText('有新邀请来了, 快输呀!\n人家舍不得记你的仇呢')
+            self.window.o_tip.setText(RECOVER_FROM_ANGER_TIP)
             self.window.o_code.move(20, 80)
             self.window.is_angry_resize = False
-        elif self.window.o_tip.text()[0:2] == '有新邀请来了, 快输呀!\n人家可不是会记仇的孩子哦?'[0:2]:
-            self.window.o_tip.setText('迷？迷迷迷迷迷迷迷!\n人家可以帮你输哦?')
+        elif self.window.o_tip.text()[0:2] == RECOVER_FROM_ANGER_TIP[0:2]:
+            self.window.o_tip.setText(DEFAULT_TIP)
         def _set_code(code:str):
             game = FindWindow(None, 'Draw&Guess')
             if game:
@@ -79,13 +85,13 @@ class RemoteCopyWindow(QWidget):
         self.o_tip.setGeometry(20, 15, 400, 100)
         self.o_tip.setAlignment(Qt.AlignmentFlag.AlignTop)
         self.o_tip.setFont(font_hyqh_55(18))
-        self.o_tip.setText('迷？迷迷迷迷迷迷迷!\n人家可以帮你输哦?')
+        self.o_tip.setText(DEFAULT_TIP)
 
     def resizeEvent(self, a0):
         global global_timers
         if (a0.oldSize().width(), a0.oldSize().height()) != (-1, -1) and (a0.size().width(), a0.size().height()) != (400, 200):
             if not self.is_angry_resize:
-                self.o_tip.setText('不要扯人家! \n人家会痛的哦?')
+                self.o_tip.setText(ANGRY_1_TIP)
                 self.o_code.move(self.o_btn.pos())
                 self.o_btn.hide()
             self.is_angry_resize = True
@@ -145,6 +151,35 @@ class RemoteCopyWindow(QWidget):
             finally:
                 block_input(False)
         Thread(target=_thread).start()
+
+class AFKMonitor(QFile):
+    def __init__(self) -> None:
+        super().__init__(LOG_PATH)
+        if not self.open(QIODevice.ReadOnly | QIODevice.Text):
+            print('File open failed')
+            return
+        self.seek(self.size())
+        self.timer = QTimer(self)
+        self.timer.timeout.connect(self.check_latest_line)
+        self.timer.setInterval(250)
+        self.timer.start()
+
+        self.alarm_window = NormalAlarmWindow('伙伴, 该回来猜词了!')
+    def check_latest_line(self) -> None:
+        game = FindWindow(None, 'Draw&Guess')
+        if game:
+            self.timer.setInterval(250)
+            example = "[22:06:09.368][DG][MnlSmile][Debug] [Round 1] Transitioning from 'Drawing' to 'Guessing'\n"
+            line = self.readLine().data().decode('utf-8')
+            if re.search(r"^\[\d{2}:\d{2}:\d{2}\.\d{3}\]\[DG\]\[.*\]\[Debug\] \[Round \d+\] Transitioning from 'Drawing' to 'Guessing'\n*$", line):
+                print('re search success')
+                if GetForegroundWindow() != game:
+                    print('game not on foreground, reminding')
+                    print('nz 鬼回来猜词')
+                    self.alarm_window.show()
+        else:
+            print('game not found, skipping')
+            self.timer.setInterval(2500)
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

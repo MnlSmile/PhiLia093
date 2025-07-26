@@ -1,11 +1,7 @@
 .venv
-
 __pycache__
-
 */__pycache__
-
 *.pyc
-
 PhiLia093.zip
-
 runtime
+cache

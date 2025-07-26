@@ -24,6 +24,10 @@ from stdqt import *
 from typing import *
 
 ALARM_WINDOW_TITLE = '!!!'
+ANGRY_1_TIP = '不要扯人家! \n会痛的哦?'
+
+global_timers = []
+
 class AlarmWindow:
     instances = []
     def __init__(self, tip:str) -> None:
@@ -82,6 +86,47 @@ class CustomQThread(QThread):
         self.target_func = func
     def run(self) -> None:
         self.target_func()
+
+class NormalAlarmWindow(QWidget):
+    def __init__(self, tip:str) -> None:
+        super().__init__()      
+        self.is_angry_resize = False
+
+        self.setGeometry(1920 - 400 - 20, 1080 - 200 - 70, 400, 200)
+        self.setWindowFlags(Qt.WindowStaysOnTopHint)
+        self.setWindowTitle('PhiLia093 - Draw & Guess Remote Copy')
+
+        self.o_cyrene = QLabel(self)
+        self.o_cyrene.setStyleSheet(
+            "border-image: url(./cyrene_small_handback.png); background-color: transparent;"
+        )
+        self.o_cyrene.setGeometry(self.width() - 200 *2// 3, self.height() - 283 *2// 3, 200 *2// 3, 283 *2// 3)
+
+        self.o_tip = QLabel(self)
+        self.o_tip.setGeometry(20, 15, 400, 100)
+        self.o_tip.setAlignment(Qt.AlignmentFlag.AlignTop)
+        self.o_tip.setFont(font_hyqh_55(18))
+        self.o_tip.setText(tip)
+
+    def resizeEvent(self, a0):
+        global global_timers
+        if (a0.oldSize().width(), a0.oldSize().height()) != (-1, -1) and (a0.size().width(), a0.size().height()) != (400, 200):
+            if not self.is_angry_resize:
+                self.o_tip.setText(ANGRY_1_TIP)
+            self.is_angry_resize = True
+            recover_size_timer = QTimer(self)
+            global_timers += [recover_size_timer]
+            def _recover():
+                nonlocal recover_size_timer
+                self.resize(400, 200)
+                recover_size_timer.stop()
+                if recover_size_timer in global_timers:
+                    global_timers.remove(recover_size_timer)
+                del recover_size_timer
+            recover_size_timer.timeout.connect(_recover)
+            recover_size_timer.setSingleShot(True)
+            recover_size_timer.start(1000)
+        return super().resizeEvent(a0)
 
 def font_hyqh_75(size:int) -> QFont:
     return QFont('汉仪旗黑 75S', size)
